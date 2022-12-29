@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeoulGardenHotel</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="favicon" href="images/sgh.ico">
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <a href="#" class="btnTop">on the Top</a>
+    <div class="shadow"></div>
+    <div class="popup" id="reservation">
+        <form>
+            <h2>
+                RESERVATION
+                <a href="#" class="btn_close">close</a>
+            </h2>
+            <div>
+                <label>CHECK-IN</label>
+                <input type="date" name="checkIn">
+            </div>
+            <div>
+                <label>CHECK-OUT</label>
+                <div>
+                    <input type="date" name="checkOut">
+                    <mark>
+                        <span>N</span>
+                        an Night
+                    </mark>
+                </div>
+            </div>
+            <div>
+                <label for="roomSelect">ROOM SELECTION</label>
+                    <select id="roomSelect">
+                        <option>STANDARD DOUBLE</option>
+                        <option>STANDARD TWIN</option>
+                        <option>TERRACE ROOM DOUBLE</option>
+                        <option>TERRACE ROOM TWIN</option>
+                        <option>FAMILY TWIN</option>
+                        <option>DELUXE DOUBLE</option>
+                        <option>DELUXE TWIN</option>
+                        <option>PREMIER SUITE DOUBLE</option>
+                        <option>PREMIER SUITE TWIN</option>
+                        <option>GARDEN SUITE ROOM</option>
+                    </select>
+            </div>
+            <div>
+                <label for="breakfastSelect">BREAKFAST STATUS</label>
+                    <select id="breakfastSelect">
+                        <option>NO</option>
+                        <option>YES (additional KRW 35,000)</option>
+                    </select>
+            </div>
+            <div>
+                <div>
+                    <label>NUMBER OF ROOMS</label>
+                        <div class="roomCount">
+                            <input type="button" value="+" class="numPlus">
+                            <input type="number" name="numberRoom" min="1" max="9" step="1" value="1" class="numRoom">
+                            <input type="button" value="-" class="numMinus">
+                        </div>
+                </div>
+                <div>
+                    <label>NUMBER OF GUESTS</label>
+                        <div class="guestCount">
+                            <input type="button" value="+" class="numPlus">
+                            <input type="number" name="numberGuest" min="2" max="6" step="1" value="2" class="numGuest">
+                            <input type="button" value="-" class="numMinus">
+                        </div>
+                </div>
+            </div>
+            <div>
+                <label for="urName">RESERVATION CUSTOMER NAME</label>
+                <input type="text" id="urName" placeholder="KIM UIYEON" required>
+            </div>
+            <div>
+                <label for="urTel" >PHONE NUMBER</label>
+                <input type="tel" id="urTel" placeholder="010 1234 5678" required>
+            </div>
+            <p>* We will confirm your reservation by contact or email within 24 hours of employee confirmation.
+                If you have not received confirmation of your reservation, please do not make a mistake as your reservation is not valid.</p> 
+                <input type="submit" value="SGH.COM">
+        </form>
+    </div>
+    <header>
+        <input type="button" value="menu" class="mui">
+        <nav>
+            <ul>
+                <li>
+                    <span>ABOUT HOTEL</span>
+                    <div>
+                        <h2>ABOUT HOTEL</h2>
+                        <ol>
+                            <li>
+                                <a href="aboutSeoul.html">ABOUT SEOULGARDEN</a>
+                            </li>
+                            <li>
+                                <a href="aboutHistory.html">HISTORY</a>
+                            </li>
+                            <li>
+                                <a href="aboutLocation.html">LOCATION</a>
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>ACCOMMODATION</span>
+                    <div>
+                        <h2>
+                            <a href="roomList.html">ACCOMMODAITON</a>
+                        </h2>
+                        <div>
+                            <div>
+                                <h3>STANDARD</h3>
+                                <ol>
+                                    <li><a href="standardDetail1.html">DOUBLE</a></li>
+                                    <li><a href="standardDetail2.html">TWIN</a></li>
+                                    <li><a href="standardDetail3.html">TERRACE ROOM DOUBLE</a></li>
+                                    <li><a href="standardDetail4.html">TERRACE ROOM TWIN</a></li>
+                                    <li><a href="standardDetail5.html">TRIPLE</a></li>
+                                    <li><a href="standardDetail6.html">FAMILY TWIN</a></li>
+                                    <li><a href="standardDetail7.html">QUAD</a></li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>DELUXE</h3>
+                                <ol>
+                                    <li><a href="deluxeDetail1.html">DOUBLE</a></li>
+                                    <li><a href="deluxeDetail2.html">TWIN</a></li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>SUITE</h3>
+                                <ol>
+                                    <li><a href="suiteDetail1.html">PREMIER SUITE DOUBLE</a></li>
+                                    <li><a href="suiteDetail2.html">PREMIER SUITE TWIN</a></li>
+                                    <li><a href="suiteDetail3.html">GARDEN SUITE ROOM</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span>DINING</span>
+                    <div>
+                        <h2>
+                            <a href="diningList.html">DINING</a>
+                        </h2>
+                            <ol>
+                                <li><a href="diningLastella.html">LA STELLA</a></li>
+                                <li><a href="diningCafe1883.html">CAFE1883</a></li>
+                            </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>MEETING &amp; BANQUET</span>
+                    <div>
+                        <h2>
+                            <a href="meetingList.html">MEETING &amp; BANQUET</a>
+                        </h2>
+                        <a href="meetingDetail1.html">GRAND BALLROOM</a>
+                        <div>
+                            <h3>MID-SIZED/SMALL</h3>
+                            <ol>
+                                <li><a href="meetingDetail2.html">Grand Ballroom A.B.C</a></li>
+                                <li><a href="meetingDetail3.html">Azalea</a></li>
+                                <li><a href="meetingDetail4.html">Lily</a></li>
+                                <li><a href="meetingDetail5.html">Rose</a></li>
+                                <li><a href="meetingDetail6.html">Iris</a></li>
+                                <li><a href="meetingDetail7.html">Cosmos</a></li>
+                                <li><a href="meetingDetail8.html">Arirang</a></li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3>MEEITNG ROOM</h3>
+                            <ol>
+                                <li><a href="mettingDetail9.html">Conference-1</a></li>
+                                <li><a href="mettingDetail10.html">Conference-2</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            <a href="index.html"><img src="images/mainPng/headerLogo.png" alt="SEOUL GARDEN HOTEL&SUITES"></a>
+        </h1>
+        <input type="button" value="menu" class="mui">
+        <nav>
+            <ul>
+                <li>
+                    <span>WEDDINGS</span>
+                    <div>
+                        <h2>
+                            <a href="weddingList.html">WEDDINGS</a>
+                        </h2>
+                        <ol>
+                            <li><a href="weddingDetail1.html">WEDDING HALLS</a></li>
+                            <li><a href="weddingDetail2.html">PARTY</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>FACILITIES</span>
+                    <div>
+                        <h2>
+                            <a href="facilitiesList.html">FACILITIES</a>
+                        </h2>
+                        <ol>
+                            <li><a href="facilitiesDetail1.html">BUSINESS CENTER</a></li>
+                            <li><a href="facilitiesDetail2.html">FITNESS</a></li>
+                            <li><a href="facilitiesDetail3.html">BARBER SHOP</a></li>
+                            <li><a href="facilitiesDetail4.html">FLOWER SHOP</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>SPECIAL OFFERS</span>
+                    <div>
+                        <h2>SPECIAL OFFERS</h2>
+                        <ol>
+                            <li><a href="offerPackage.html">PACKAGE</a></li>
+                            <li><a href="offerEvent.html">EVENT</a></li>
+                            <li><a href="offerNews.html">NEWS</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <input type="button" value="SGH.COM" data-popname="reservation" class="btn_open">
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="aboutSeoul.html">SEOUL GARDEN</a></li>
+                <li><a href="aboutLocation.html">WAY</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="locationContainer">
+        <div class="pageHistory">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="aboutSeoul.html">ABOUT HOTEL</a>
+                </li>
+                <li>
+                    <a href="aboutLocation.html">LOCATION</a>
+                </li>
+            </ul>
+            <h2>LOCATION</h2>
+            <p>BEST WESTERN PREMIER Seoul Garden Hotel Address &amp; Contact</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.2634193939!2d126.94557235973829!3d37.54082673859137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98a5f00f4b03%3A0xe12e8c400dcca16c!2z7ISc7Jq46rCA65Og7Zi47YWU!5e0!3m2!1sko!2skr!4v1664169592837!5m2!1sko!2skr" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Exit no.3 at Mapo Subway Station(Line 5) or Exit no.8 at Gongdeok Subway Station (Lines 5, 6, Gyeongui, or airport railway</p>
+        <b>Means of Transportation</b> 
+        <ol class="tabUI">
+            <li data-tabName="subwayTab" class="active">SUBWAY</li>
+            <li data-tabName="airportTab">AIRPORT BUS</li>
+            <li data-tabName="carTab">CAR OR TAXI</li>
+        </ol>
+        <div id="subwayTab" class="tabPage active">
+            <table>
+                <caption>SUBWAY</caption>
+                <tbody>
+                    <tr>
+                        <th>Mapo Station on Line 5</th>
+                        <td>
+                            Exit 3 <mark>(3 minutes walk)</mark>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Gongdeok Station <br>
+                            on Line 5, 6<br>
+                            Airport Railroad<br>
+                            Gyeongui. jungng<br>
+                        </th>
+                        <td>
+                            Exit 8,9 <mark>(5 minutes walk)</mark>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="airportTab" class="tabPage">
+            <table>
+                <caption>6702 KAL LIMOUSINE</caption>
+                <tbody>
+                    <tr>
+                        <th>RIDE</th>
+                        <td>ICN Terminal 1 - ICN Terminal 2 - Hotel</td>
+                    </tr>
+                    <tr>
+                        <th>FIRST BUS</th>
+                        <td>
+                            <span>T1-04:58</span>
+                            <span>T2-05:18</span>
+                        </td>
+                    <tr>
+                        <th>LAST BUS</th>
+                        <td>
+                            <span>T1-22:55</span>
+                            <span>T2-05:18</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>INTERVAL</th>
+                        <td>About 20min</td>
+                    </tr>
+                    <tr>
+                        <th>STATION</th>
+                        <td>T1-1F 3B, 4A T2-B1F 17, 18, 19</td>
+                    </tr>
+                    <tr>
+                        <th>ON WAY FARE</th>
+                        <td>
+                            Adults: 16,000 KRW <br>
+                            Child: 10,000 KRW
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <caption>6015 AIRPORT LIMOSINE</caption>
+                <tbody>
+                    <tr>
+                        <th>RIDE</th>
+                        <td>ICN Terminal 2 - ICN Terminal 1 - Hotel</td>
+                    </tr>
+                    <tr>
+                        <th>FIRST BUS</th>
+                        <td>
+                            <span>T2-05:25</span>
+                            <span>T1-05:45</span>
+                        </td>
+                    <tr>
+                        <th>LAST BUS</th>
+                        <td>
+                            <span>T2-22:55</span>
+                            <span>T1-23:15</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>INTERVAL</th>
+                        <td>About 15min</td>
+                    </tr>
+                    <tr>
+                        <th>STATION</th>
+                        <td>T2-B1F 28, T1-1F 58</td>
+                    </tr>
+                    <tr>
+                        <th>ON WAY FARE</th>
+                        <td>Adults: 15,000 KRW <br>
+                            Child: 11,000 KRW
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="carTab" class="tabPage">
+            <table>
+                <caption>CAR</caption>
+                    <tbody>
+                    <tr>
+                        <th>INCHEON AIRPORT</th>
+                        <td>
+                            55km Distance <mark>(50 minutes take)</mark>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>GIMPO AIRPORT</th>
+                        <td>
+                            15km Distance <mark>(25 minutes take)</mark>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>SEOUL STATION</th>
+                        <td>
+                            3.7km DIstance <mark>(10 minutes take)</mark>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <ol>
+                <li><a href="aboutSeoul.html">HOTEL</a></li>
+                <li><a href="recruitment.html">RECRUITMENT</a></li>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2><img src="images/mainPng/footerLogo.png" alt="SEOUL GARDEN HOTEL&SUITES"></h2>
+            <address>
+            <strong>SEOUL GARDEN HOTEL &amp; SUITES</strong>
+                <span>(04168) SEOUL GARDEN HOTEL 58</span>
+                <a href="tel:+8227107111">TEL : +82-2-710-7111</a>
+                <a href="tel:+8227107112">FAX : +82-2-710-7112</a>
+                <a href="mailto:resv@seoulgarden.co.kr">E-MAIL : resv@seoulgarden.co.kr</a>
+                <span>CEO : Lee Ilgyu, Lee Gyusang</span>
+                <span>Business registration number : 105-81-03830</span>
+                <span>Copyright ⓒ Seoul Garden Hotel Co. Ltd All Rights Reserved</span>
+            </address>
+            <span>
+                <a href="https://www.instagram.com/seoulgardenhotel/">Instagram</a>
+                <a href="https://www.facebook.com/seoulgardenhotel">Facebook</a>
+                <a href="https://www.youtube.com/results?search_query=%EC%84%9C%EC%9A%B8%EA%B0%80%EB%93%A0%ED%98%B8%ED%85%94">Youtube</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

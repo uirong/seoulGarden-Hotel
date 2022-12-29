@@ -1,0 +1,1579 @@
+header,
+header nav ul li span,
+footer div:nth-of-type(1) ol, footer div:nth-of-type(2) strong,
+.indexContainer>div>h3,.indexContainer>div>div>h4,
+.indexContainer>div>div>span,.indexContainer div>address b,
+.indexContainer div:nth-of-type(5) form fieldset legend,.pageHistory ul li,.pageHistory h2,
+.aboutContainer article div>h3, .locationContainer b,.locationContainer #airportTab table caption,
+.listContainer h3,.listWrap,
+.roomDetail> div h3,.roomDetail> div h4,.roomDetail> div>span,.roomDetail> div:nth-of-type(5) span,
+.diningDetail h3,.diningDetail h4,.cafeDetail h3,.cafeDetail h4,
+.meetingContainer div:nth-of-type(2) div b,.meetingContainer div h3,.meetingContainer div strong,
+.meetingDetail div>h4,.meetingDetail> div:nth-of-type(4) h3,
+.weddingContainer>div:nth-of-type(2)>div b,.weddingContainer>div:nth-of-type(3)>h3,.weddingContainer>div:nth-of-type(3)>ol strong,
+.weddingDetail>div:nth-of-type(3)>div h3,.weddingDetail> div:nth-of-type(4) h3,
+.facilitiesDetail div>div>h4,.facilitiesDetail>div>h3,
+.packageDetail>div:nth-of-type(3) div h4,.packageDetail>.packageAmount h3,.packageDetail>.packageType h3,.packageDetail> ol li b,
+.eventDetail>div:nth-of-type(3) div h4,.eventDetail>.eventExplan h3,.eventDetail> ul> li>b,.eventDetail>div:last-of-type b,
+.newsDetail> figure figcaption dl dt,
+.sitemapContainer ul h3,.sitemapContainer div:not(.pageHistory) h3,
+.recruitmentContainer>div h3,
+.popup form h2, .popup form div label{
+    font-family: 'Cormorant';
+}
+header nav ul li div ol li,header nav ul li div ol li a,
+footer div address span,footer div address >a,
+.indexContainer div >figure >figcaption >h3,
+.indexContainer div figure figcaption >p,
+.indexContainer div>address span,
+.indexContainer div:nth-of-type(5) form fieldset a,
+.indexContainer div:nth-of-type(5) form fieldset input:first-of-type,
+.indexContainer>div .eventCarousel li > dl>dd,.indexContainer>div .roomCarousel li > dl>dd,.indexContainer>div .eventCarousel li > dl dt,.indexContainer>div .roomCarousel li > dl dt,
+.indexContainer>div>div:first-of-type .bx-pager,.indexContainer>div>div:last-of-type .bx-pager, .pageHistory p,
+.aboutContainer article, .historyContainer>ul, .locationContainer p,.locationContainer .tabUI li,
+.locationContainer #subwayTab, .locationContainer #airportTab table tbody , .locationContainer #carTab,
+.listContainer> .pageHistory~div:not(h3,dd a),.roomDetail> div:nth-of-type(3)>div:last-of-type address,
+.roomDetail> div:nth-of-type(7)>ul li dl>*,.roomDetail> div:nth-of-type(4),.roomDetail> div:nth-of-type(5) ol,.roomDetail> div:nth-of-type(6) ol,.roomDetail> div:nth-of-type(6) ul li dl,
+.diningContainer div>ul li figure figcaption dl>*:not(a),.diningDetail div address a,.diningDetail div ol,
+.cafeDetail> div:nth-of-type(3)>div:last-of-type address,.cafeDetail > div:nth-of-type(4) ul>li,
+.meetingContainer div:nth-of-type(2) div> address,.meetingContainer div:last-of-type ol>li>figure figcaption dl,
+.meetingContainer .tabPin,.meetingContainer .smallTab,.meetingContainer div:last-of-type>ol>li:last-of-type> ul> li,
+.meetingDetail div address,.meetingDetail>div>table,.meetingDetail> div:last-of-type,
+.weddingContainer>div:nth-of-type(2)>div address,.weddingContainer>div:nth-of-type(3)>ol li figure figcaption dl dt,
+.weddingDetail>div:nth-of-type(3)>div address,.weddingDetail>div>.weddingTable>*,.weddingDetail>div:last-of-type,
+.partyDetail>ul li figcaption dl,
+.facilitiesContainer>div:last-of-type ul li figure figcaption,
+.facilitiesDetail div div> address,.facilitiesDetail> div ul>*,
+.packageEventContainer> div:last-of-type>*,.packageDetail>div>div address>*,.packageDetail .packageAmount>*:not(h3),.packageDetail .packageType>*:not(h3),.packageDetail>ol li em,.packageDetail>ol li>*:not(b),.packageDetail> figure figcaption,.packageDetail>div:nth-of-type(5),
+.caution,
+.eventDetail>div>div address>*,.eventDetail .eventExplan>*:not(h3),.eventDetail> ul>*:not(b),.eventDetail>div:not(.eventExplan):last-of-type:not(b)>*:not(b),
+.newsContainer:last-of-type,
+.newsDetail> figure figcaption dl dd,.newsDetail> div:not(.pageHistory):last-of-type,.newsDetail>p,.newsDetail>small,.newsDetail>table,
+.sitemapContainer ul>*:not(h3),.sitemapContainer div:not(h3,.pageHistory)>*,.privacyWrap,
+.recruitmentContainer>div:not(.pageHistory)>*:not(h3),
+.popup form div mark,.poptup form div>label>select option,.poptup form div>label>.count>*,.poptup form div [type='text'],.poptup form div [type='tel'],.popup>form>p,
+.popup form div input[type='date'],.popup form div>.roomCount>*,.popup form div>.guestCount>*,.popup form div input[id^='ur'],.popup>form div>#roomSelect,.popup>form div>#breakfastSelect{
+    font-family: 'Neuton';
+}
+.btn_open,input[type='button'],
+.indexContainer div:nth-of-type(5) form fieldset input:last-of-type,
+figcaption dl dd a,
+.popup form [type='submit']{
+    font-family: 'Elsie';
+}
+.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background: none;
+    margin-bottom: 0;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+
+.roomDetail> div:nth-of-type(3)>div:last-of-type input,
+.meetingDetail div:nth-of-type(3)>div:last-of-type input,
+.meetingContainer div:nth-of-type(2)>div input,
+.weddingContainer>div:nth-of-type(2)>div input,
+.weddingDetail>div:nth-of-type(3)>div input{
+    background-color: #af8d5d; border: none; line-height: inherit; text-align: center;
+    color: #ffffff; display: block; width: 36.06%; padding: 15px 0; font-size: 12px; font-weight: 400;
+}
+table:not(#airportTab>table) caption{
+    display: none;
+}
+.grandTable:first-of-type tbody,.middleTable:first-of-type tbody,
+.middleTable thead>*,.ariTable thead>*,
+.middleTable tbody>*,
+.middleTable2 tbody>*,.ABCTable:first-of-type tbody,.conferTable:first-of-type tbody
+.middleTable thead>*,.ABCTable thead>*,.conferTable thead>*,.ABCTable tbody>*,.conferTable tbody>*,
+.ABCTable2 tbody>*,.conferTable2 tbody>*{
+    text-align: center;
+}
+.shadow{
+    width: 100%; height: 100vh; background-color: #666; opacity: 0.8;
+    position: fixed; left: 0; top: 0;z-index: 999; display: none;
+}
+
+/* ?all Use */
+@media screen and (min-width: 280px) and (max-width: 767px){
+    .popup{
+        width: 75%; background-color: #f5f5f5; padding: 20px 15px;
+        position: absolute; top: 10vh; z-index: 1000;
+        display: none; left: 50%; transform: translate(-50%,0);
+    }
+    .popup form::after{
+        content: ''; display: block; clear: both;
+    }
+    .popup form{
+        width: 100%;
+    }
+    .popup form h2:not(.btn_close){
+        text-align: center; font-size: 18px; font-weight: 600; color: #000; margin-bottom: 50px;
+        position: relative; 
+    }
+    .popup form h2 a{
+        background-image: url('../images/mainPng/sghButton.png'); background-size: 20px; width: 30px; height: 25px; background-repeat: no-repeat; background-position: center center;
+        text-indent: -9999px; overflow: hidden; white-space: nowrap; display: block; position: absolute; top: -3px; right: 0; z-index: 10;
+    }
+    .popup form>div:not(:nth-of-type(5)),
+    .popup form>div:nth-of-type(5)> div{
+        display: block;
+    }
+    .popup form>div:nth-of-type(5){
+        width: 100%; background-color: #fff; padding: 20px 0; box-sizing: border-box;
+    }
+    .popup form>div:not(:last-of-type,:nth-last-of-type(2)),
+    .popup form>div:nth-of-type(5)>div:first-of-type{
+        margin-bottom: 20px;
+    }
+    .popup form div>label{
+        font-size: 12px; font-weight: 400;
+    }
+    .popup form div>label:not(.count){
+        display: block; margin-bottom: 20px;
+    }
+    .popup form div mark{
+        font-style: normal; background-color: transparent; color: #af8d5d; font-size: 11px; font-weight: 300;
+    }
+    .popup form >div:nth-of-type(2)>div{
+        background-color: #fff;
+    }
+    .popup form>div input[type='date'],
+    .popup form>div select[id$='Select'],
+    .popup form>div input[id^='ur']{
+        border: none; background-color: #fff; padding: 15px; box-sizing: border-box;
+        font-size: 11px;
+    }
+    .popup form>div>input[type='date']{
+        width: 100%; font-size: 11px;
+    }
+    .popup form>div>div>input[type='date']{
+        width: 64%; font-size: 11px;
+    }
+    .popup form div mark::before{
+        content: ''; border-right: 1px solid #666666; margin-right: 10px;
+        font-size: 12px; font-weight: 400;
+    }
+    .popup form>div select[id$='Select']{
+        width: 100%; appearance: none;
+    }
+    .popup form>div select[id$='Select']:after{
+        content: url('../images/mainPng/sgh_selectorArrow.png'); display: block;
+        float: right; transform: 0.3s ease-out; transform: rotate(0deg);
+    }
+    .popup form>div select[id$='Select'].active:after{
+        transform: rotate(180deg);
+    }
+    .popup form>div select option{
+        background-color: #fff; padding: 20px; box-sizing: border-box; 
+    }
+    .popup form>div:nth-of-type(5)>*{
+        text-align: center;
+    }
+    .popup form>div input[id^='ur']{
+        margin-bottom: 40px; width: 100%;
+    }
+    .popup form>div .roomCount>*,
+    .popup form>div .guestCount>*{
+        border: none; text-align: center;
+    }
+    .popup form>div .roomCount> .numRoom,
+    .popup form>div .guestCount> .numGuest{
+        font-size: 30px; font-weight: 300;
+    }
+    .popup form>div .roomCount input[type='button'],
+    .popup form>div .guestCount input[type='button']{
+        background-color: transparent; font-size: 40px; font-weight: 300; width: 12%;
+    }
+    .popup form p{
+        font-size: 11px; font-weight: 300; color: #666; margin-bottom: 40px;
+        display: inline-block; line-height: 17px;
+    }
+    .popup form [type='submit']{
+        background-color: #1a1a1a; color: #fff; width: 100%;
+        padding: 15px 0; font-size: 12px; font-weight: 400; box-sizing: border-box;
+    }
+    .popup.active{
+        display: block;
+    }
+    /* *popup Fine */
+
+
+
+
+    a.btnTop{
+        width: 40px; height: 40px; display: block; text-indent: -9999px;
+        background: url('../images/mainPng/topButton.png') center / contain no-repeat;
+        position: fixed; right: 3.57%; bottom: 50px; z-index: 100;
+    }
+    header{
+        position: relative; width: 100%; padding: 20px 0;
+        background-color: #252525; top: 0; left: 0; z-index: 100;
+    }
+    header h1{
+       max-width: 104px; margin: 0 auto; padding-bottom: 10px; box-sizing: border-box;
+    }
+    header h1 a{
+        display: block;
+    }
+    header h1 a img{
+        width: 100%;
+    }
+    header .mui{
+        background-image: url('../images/mainMenu.png'); width: 20px; position: absolute;
+        background-repeat: no-repeat; background-position: bottom center;
+        text-indent: -9999px;  border: none; background-color: transparent;
+        background-size: 20px;
+        padding: 0; bottom: 80px; height: 22px;
+    }
+    header .mui:first-of-type{
+        left: 3.57%;
+    }
+    header .mui:last-of-type{
+        right: 3.57%;
+    }
+    header .mui.active{
+        background-image: url('../images/close.png'); width: 18px;
+        height: 22px; background-size: 18px;
+    }
+    header nav{
+        display: none;
+        width: 100%; position: absolute; top: 167px;
+        background-color: #cccccc;
+        padding-top: 40px; box-sizing: border-box;
+    }
+    header > input[type='button'].active + nav{
+        display: block;
+    }
+    header nav:first-of-type{
+        left: 0; text-align: left;
+    }
+    header nav:last-of-type{
+        right: 0; 
+    }
+    header nav ul li>span,
+    header nav:last-of-type ul li>input{
+        margin-left: 3.57%;
+    }
+    header nav > ul> li >span{
+        display: block;
+    }
+    header nav > ul > li{
+        cursor: default; font-size: 11px; font-weight: 500; line-height: 17px;
+    }
+    header nav > ul > li:not(:last-child),
+    header nav > ul > li:last-of-type>span,
+    header nav:last-of-type > ul > li:last-of-type{
+        margin-bottom: 40px; 
+    }
+    header nav:first-of-type>ul li div> ol li,
+    header nav:first-of-type>ul li div> div ol li,
+    header nav:last-of-type ul li>div>ol li{
+        font-size: 11px;
+    }
+    header nav:first-of-type>ul li div> div h3,
+    header nav:first-of-type>ul li div> a{
+        font-size: 12px;
+    }
+    header nav:nth-of-type(1) > ul > li:hover,
+    header nav:nth-of-type(2)> ul >li:hover{
+        color: #af8d5d;
+    }
+    header nav:nth-of-type(2) > ul>li:last-of-type:hover{
+        color: inherit; border-color: inherit;
+    }
+    header nav > ul > li .btn_open{
+        border: none; line-height: inherit; color: #af8d5d; background-color: transparent;
+        padding: 0;
+    }
+    header > div{
+        width: 100%; border-top: 1px solid #999; padding-top: 15px;
+    }
+    header > div ul::after{
+        content: ''; display: block; clear: both;
+    }
+    header > div ul li{
+        width: 33.33%; text-align: center; float: left; list-style: none;
+    }
+    header > div ul li a{
+        text-decoration: none; color: #999999; display: block; font-size: 12px; font-weight: 300;
+    }
+    header > div ul li a:hover{
+        text-decoration: underline; color: #af8d5d;
+    }
+    header nav ul li > div{
+        display: none; width: 100%; margin-top: 40px; padding: 30px 0;
+        background-color: #e6e6e6; height: 100%;
+    }
+    header nav ul > li:hover > div{
+        display: block;
+    }
+    header nav ul > li:nth-child(2) > div > div{
+        width: 96.43%; margin-left: 3.57%;
+    }
+    header nav ul:first-of-type > li:nth-child(4) > div > a{
+       font-weight: 700; text-decoration: none;
+       margin-bottom: 30px; display: block;
+       color: #000;
+    }
+    header nav ul:first-of-type > li:nth-child(4) > div > a:hover{
+        text-decoration: underline; color: #af8d5d;
+    }
+    header nav ul li >div h2,
+    header nav ul li >div h2 a{
+        display: none;
+    }
+    header nav:first-of-type ul li>div ol li,
+    header nav:last-of-type ul li>div ol li{
+        list-style: none; 
+    }
+    header nav:first-of-type ul li:not(:nth-child(2),:nth-child(4)) div ol:first-of-type,
+    header nav:last-of-type ul li div ol:first-of-type,
+    header nav:first-of-type > ul li:nth-child(4) div>div,
+    header nav ul li div>a{
+        margin-left: 3.57%;
+    }
+    header nav:first-of-type ul li>div ol li a,
+    header nav:first-of-type ul > li:nth-child(4) > div > div ol li >a,
+    header nav:last-of-type ul li>div ol li a{
+        text-decoration: none; color: #000;
+    }
+    header nav:first-of-type ul li>div ol li a:active,
+    header nav:first-of-type ul > li:nth-child(4) > div > a:active,
+    header nav:last-of-type ul li>div ol li a:active {
+        color: #af8d5d; text-decoration: underline;
+    }
+    header nav:first-of-type >ul li:not(:nth-child(2),:nth-child(4)) >div ol li:not(:last-of-type),
+    header nav:last-of-type > ul li> div ol li:not(:last-of-type),
+    header nav:first-of-type > ul li:nth-child(2) div>div>div:not(:last-of-type),
+    header nav:first-of-type > ul li:nth-child(2) div>div>div>ol li:not(:last-of-type),
+    header nav:first-of-type > ul li:nth-child(4) div>div:not(:last-of-type),
+    header nav:first-of-type > ul li:nth-child(4) div>div>ol>li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    header nav ul li:nth-child(2) > div >div div h3,
+    header nav ul li:nth-child(4) > div >div h3{
+        color: #000000; display: inline-block; line-height: 15px;
+        margin-bottom: 30px;
+    }
+    header nav ul li > div ol li{
+        line-height: 17px;
+    }
+    /* * header */
+
+    footer{
+        background-color: #f0f0f0; z-index: 1000; position: relative;
+    }
+    footer>*{
+        z-index: 1000; position: relative;
+    }
+    footer div:nth-of-type(1){
+        background-color: #e5e5e5;
+    }
+    footer div:nth-of-type(1) ol{
+        display: flex; list-style: none; flex-flow: row wrap;
+        justify-content: space-evenly;
+        line-height: 50px;
+    }
+    footer div:nth-of-type(1) ol li{
+        font-size: 11px; text-align: center;
+    }
+    footer div:nth-of-type(1) ol li:not(:last-of-type){
+        width: 33%;
+    }
+    footer div:nth-of-type(1) ol li:not(:last-of-type)
+    footer div:last-of-type address strong{
+        font-size: 14px;
+    }
+    footer div:nth-of-type(1) ol li a{
+        text-decoration: none; color: #333; font-weight: 500;
+    }
+    footer div:nth-of-type(1) ol li:last-of-type a{
+        color: #af8d5d;
+    }
+    footer div:nth-of-type(1) ol li a:active{
+        text-decoration: underline;
+    }
+    footer div:nth-of-type(2){
+        padding: 20px 0;
+    }
+    footer div:nth-of-type(2) h2,
+    footer div:nth-of-type(2) >span{
+        display: none;
+    }
+    footer div:nth-of-type(2) address{
+        text-align: center;
+    }
+    footer div:nth-of-type(2) address{
+        width: 100%; text-decoration: none; font-style: normal;
+    }
+    footer div:nth-of-type(2) address strong{
+        display: block; color: #000000; 
+        margin-bottom: 20px;
+    }
+    footer div:nth-of-type(2) address:not(:first-child){
+        color: #666666; font-size: 12px; line-height: 18px;
+    }
+    footer div:nth-of-type(2) address>*:not(:first-child,:last-child){
+        margin-bottom: 20px;
+    }
+    footer div:nth-of-type(2) address>*:not(:nth-child(3),:nth-child(4)){
+        display: block; 
+    }
+    footer div:nth-of-type(2) address a:nth-child(3),
+    footer div:nth-of-type(2) address a:nth-child(4){
+        display: inline-block;
+    }
+    footer div:nth-of-type(2) address>*:nth-child(3){
+        padding-right: 10px; border-right: 1px solid #aaaaaa;
+    }
+    footer div:nth-of-type(2) address>*:nth-child(4){
+        padding-left: 10px;
+    }
+    footer div:nth-of-type(2) address a{
+        text-decoration: none; color: #666666;
+    }
+    footer div:nth-of-type(2) address a:hover{
+        text-decoration: underline;
+    }
+    footer div:nth-of-type(2) > span{
+        padding: 56px 0; height: 4%; 
+        background-repeat: no-repeat; 
+        background-size: auto; background-position: center center;
+    }
+    footer div:nth-of-type(2) > span>a{
+        display: inline-block; width: 48px; height: 48px;
+        text-indent: -9999px;
+    }
+    footer div:nth-of-type(2) > span>a:nth-of-type(1){
+        display: inline-block; 
+        background-image: url('../images/mainPng/snsInsta.png');
+    }
+    footer div:nth-of-type(2) > span>a:nth-of-type(2){
+        background-image: url('../images/mainPng/snsFacebook.png');
+    }
+    footer div:nth-of-type(2) > span>a:nth-child(3){
+        background-image: url('../images/mainPng/snsYoutube.png');
+    }
+    /* *footerFine */
+    [class$='Container']:not(.indexContainer){
+        padding-top: 50px; margin-bottom: 100px;
+    }
+    [class$='Detail']{
+        margin-bottom: 100px;
+    }
+    [class$='Detail']>.listWrap{
+        margin-bottom: 50px;
+    }
+    .indexContainer>div:nth-child(3)>*,
+    .indexContainer>div:last-child>div>*,
+    .indexContainer>div:nth-of-type(4)>address>*,
+    .indexContainer>div:last-of-type>form>fieldset,
+    .aboutContainer > article div,
+    .historyContainer>ul>li,
+    .locationContainer>*:not(.pageHistory,iframe),
+    .diningContainer>div:nth-of-type(2)>ul,
+    .diningDetail>*:not(.listWrap,.pageHistory),
+    .cafeDetail>*:not(.listWrap,.pageHistory),
+    .roomDetail>*:not(.listWrap,.pageHistory),
+    .diningContainer>div:nth-of-type(2)>ul,
+    .listContainer div:nth-of-type(2)>div,
+    .meetingContainer div>ol,
+    .meetingDetail>*:not(.listWrap,.pageHistory),
+    .weddingContainer>div:last-of-type,
+    .weddingDetail>*:not(.listWrap,.pageHistory),
+    .partyDetail>*:not(.listWrap,.pageHistory),
+    .facilitiesContainer>div:last-of-type> ul,
+    .facilitiesDetail>*:not(.listWrap,.pageHistory),
+    .packageEventContainer div:last-of-type>*:not(.listWrap,.pageHistory,div>img),
+    .newsContainer div:last-of-type>*:not(.listWrap,.pageHistory,div>img),
+    .packageDetail>*:not(.listWrap,.pageHistory),
+    .eventDetail>*:not(.listWrap,.pageHistory),
+    .newsContainer>div:last-of-type>*:not(img),
+    .newsDetail>*:not(.pageHistory,.listWrap),
+    .sitemapContainer>*:not(.pageHistory),
+    .recruitmentContainer>*:not(.pageHistory),
+    .privacyContainer>*:not(.pageHistory){
+        max-width: 260px; margin: 0 auto;
+    }
+    .roomDetail > .pageHistory+div,
+    .diningDetail > .pageHistory+div,
+    .cafeDetail > .pageHistory+div,
+    .meetingDetail> .pageHistory+div,
+    .weddingDetail> .pageHistory+div,
+    .facilitiesDetail> .pageHistory+div,
+    .packageDetail>.pageHistory+div,
+    .eventDetail>.pageHistory+div{
+        margin-bottom: 60px;
+    }
+    .grandTable,.grandTable2,.middleTable,.middleTable2,.ariTable,
+    .ABCTable,.ABCTable2,.conferTable,.conferTable2,
+    .weddingDetail> div:nth-of-type(4)> .weddingTable{
+        background-color: #eaeaea;
+    }
+    table:not(.privacyWrap>*)>*,
+    table:not(.privacyWrap>*) thead th,
+    table:not(.privacyWrap>*) tbody th{
+        font-size: 11px; font-weight: 400;
+    }
+    .pageHistory{
+        margin: 0 auto 40px; max-width: 260px;
+    }
+    .pageHistory ul{
+        text-align: center; margin-bottom: 50px; display: block;
+    }
+    .pageHistory ul li{
+        display: inline-block;
+    }
+    .pageHistory ul li:not(:first-child,:last-child){
+        margin-left: 5px;
+    }
+    .pageHistory ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .pageHistory ul li:last-child{
+        display: block;
+    }
+    .pageHistory ul li:last-child a{
+        color: #af8d5d; text-decoration: underline;
+    }
+    .pageHistory ul li a{
+        font-size: 11px; font-weight: 500; text-decoration: none; color: #999999;
+    }
+    .pageHistory ul li a:hover{
+        text-decoration: underline;
+    }
+    .pageHistory ul li:not(:last-child):after{
+        content: url('../images/aboutPng/historyPageArrow.png'); display: inline-block; margin-left: 5px;
+        vertical-align: middle;
+    }
+    .pageHistory h2{
+        font-size: 14px; font-weight: 500; color: #000000; display: flex; align-items: center;
+        margin-bottom: 20px; 
+    }
+    .pageHistory h2:before{
+        margin-right: 5px;
+    }
+    .pageHistory h2:after{
+        margin-left: 5px;
+    }
+    .pageHistory h2:before,
+    .pageHistory h2:after{
+        content: ''; flex-grow: 1; background-color: #e6e6e6; height: 2px;
+    }
+    .pageHistory>p{
+        text-align: center;  line-height: 17px;
+        font-size: 11px; font-weight: 300; color: #666;
+    }
+    /* *pageHistory Fine */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .popup{
+        width: 60%; background-color: #f5f5f5; padding: 40px 35px;
+        position: absolute; top: 10vh; z-index: 1100;
+        display: none; left: 50%; transform: translate(-50%,0);
+    }
+    .popup form::after{
+        content: ''; display: block; clear: both;
+    }
+    .popup form{
+        width: 100%;
+    }
+    .popup form h2:not(.btn_close){
+        text-align: center; font-size: 40px; font-weight: 600; color: #000; margin-bottom: 70px;
+        position: relative;
+    }
+    .popup form h2 a{
+        background-image: url('../images/mainPng/sghButton.png'); background-size: 30px; width: 30px; height: 30px; background-repeat: no-repeat; background-position: center center;
+        text-indent: -9999px; overflow: hidden; white-space: nowrap; display: block; position: absolute; top: 3px; right: 0; z-index: 10;
+    }
+    .popup form>div:not(:nth-of-type(5)),
+    .popup form>div:nth-of-type(5)> div{
+        width: 49.2%; display: inline-block;
+    }
+    .popup form>div:nth-of-type(5){
+        width: 100%; background-color: #fff; padding-top: 30px; box-sizing: border-box;
+    }
+    .popup form>div:not(:last-of-type,:nth-last-of-type(2)),
+    .popup form>div:nth-of-type(5)>*{
+        margin-bottom: 30px;
+    }
+    .popup form div>label:not(.count){
+        display: block; margin-bottom: 20px;
+    }
+    .popup form div mark{
+        font-style: normal; background-color: transparent; color: #af8d5d; font-size: 14px; font-weight: 300;
+    }
+    .popup form >div:nth-of-type(2)>div{
+        background-color: #fff;
+    }
+    .popup form>div input[type='date'],
+    .popup form>div select[id$='Select'],
+    .popup form>div input[id^='ur']{
+        border: none; background-color: #fff; padding: 20px; box-sizing: border-box;
+    }
+    .popup form>div>input[type='date']{
+        width: 100%;
+    }
+    .popup form>div>div>input[type='date']{
+        width: 64%;
+    }
+    .popup form div mark::before{
+        content: ''; border-right: 1px solid #666666; margin-right: 10px;
+        font-size: 16px; font-weight: 400;
+    }
+    .popup form>div select[id$='Select']{
+        width: 100%; appearance: none;
+    }
+    .popup form>div select[id$='Select']:after{
+        content: url('../images/mainPng/sgh_selectorArrow.png'); display: block;
+        float: right; transform: 0.3s ease-out; transform: rotate(0deg);
+    }
+    .popup form>div select[id$='Select'].active:after{
+        transform: rotate(180deg);
+    }
+    .popup form>div select option{
+        background-color: #fff; padding: 20px; box-sizing: border-box; 
+    }
+    .popup form>div:nth-of-type(5)>*{
+        text-align: center;
+    }
+    .popup form>div input[id^='ur']{
+        margin-bottom: 40px; width: 100%;
+    }
+    .popup form>div .roomCount>*,
+    .popup form>div .guestCount>*{
+        border: none; text-align: center;
+    }
+    .popup form>div .roomCount> .numRoom,
+    .popup form>div .guestCount> .numGuest{
+        font-size: 30px; font-weight: 300;
+    }
+    .popup form>div .roomCount input[type='button'],
+    .popup form>div .guestCount input[type='button']{
+        background-color: transparent; font-size: 40px; font-weight: 300; width: 12%;
+    }
+    .popup form p{
+        font-size: 16px; font-weight: 300; color: #666; margin-bottom: 40px;
+        display: inline-block;
+    }
+    .popup form [type='submit']{
+        background-color: #1a1a1a; color: #fff; width: 100%;
+        padding: 20px 0; font-size: 16px; font-weight: 400; box-sizing: border-box;
+    }
+    .popup.active{
+        display: block;
+    }
+    /* *popup Fine */
+    a.btnTop{
+        width: 60px; height: 60px; display: block; text-indent: -9999px;
+        background: url('../images/mainPng/topButton.png') center / contain no-repeat;
+        position: fixed; right: 3.12%; bottom: 50px; z-index: 110;
+    }
+    header{
+        position: fixed; width: 100%; padding: 20px 0;
+        background-color: #252525; top: 0; left: 0; z-index: 100;
+    }
+    header h1{
+       max-width: 104px; margin: 0 auto;
+    }
+    header h1 a{
+        display: block;
+    }
+    header h1 a img{
+        width: 100%;
+    }
+    header .mui{
+        background-image: url('../images/mainMenu.png'); width: 34px; position: absolute;
+        background-repeat: no-repeat; background-position: bottom center;
+        text-indent: -9999px;  border: none; background-color: transparent;
+        padding: 0; bottom: 20px; height: 22px;
+    }
+    header .mui:first-of-type{
+        left: 3.12%;
+    }
+    header .mui:last-of-type{
+        right: 3.12%;
+    }
+    header .mui.active{
+        background-image: url('../images/close.png'); width: 34px;
+        height: 26px;
+    }
+    header nav{
+        display: none;
+        width: 100%; position: absolute; top: 129px;
+        background-color: rgba(229, 229, 229, 0.97);
+        padding: 30px 0 145px; box-sizing: border-box;
+    }
+    header > input[type='button'].active + nav{
+        display: block;
+    }
+    header nav:first-of-type{
+        left: 0; text-align: left;
+    }
+    header nav:last-of-type{
+        right: 0; 
+    }
+    header nav:first-of-type ul li>span{
+        margin-left: 3.12%;
+    }
+    header nav:last-of-type ul li>span,
+    header nav:last-of-type ul li>input{
+        margin-right: 3.12%;
+    }
+    header nav:last-of-type > ul> li >span{
+        display: block;
+    }
+    header nav:last-of-type > ul> li >span,
+    header nav:last-of-type > ul> li>*:not(div),
+    header nav:last-of-type > ul > li:last-of-type{
+        text-align: right;
+    }
+    header nav:nth-of-type(1) > ul > li,
+    header nav:nth-of-type(2)> ul >li:not(:nth-of-type(4)){
+        border-bottom: 2px solid transparent;
+    }
+    header nav > ul > li{
+        cursor: default; font-size: 12px; font-weight: 500; line-height: 20px;
+    }
+    header nav > ul > li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    header nav:first-of-type>ul li div> ol li,
+    header nav:first-of-type>ul li div> a,
+    header nav:first-of-type>ul li div> div h3,
+    header nav:first-of-type>ul li div> div ol li,
+    header nav:last-of-type ul li>div>ol li{
+        font-size: 12px;
+    }
+    header nav > ul > li div{
+        line-height: normal;
+    }
+    header nav:nth-of-type(1) > ul > li:hover,
+    header nav:nth-of-type(2)> ul >li:hover{
+        color: #af8d5d; text-decoration: underline;
+    }
+    header nav:nth-of-type(2) > ul>li:last-of-type:hover{
+        color: inherit; border-color: inherit;
+    }
+    header nav > ul > li .btn_open{
+        border: none; line-height: inherit; color: #af8d5d; background-color: transparent;
+        padding: 0;
+    }
+    header > div{
+        position: absolute; right: 3.12%; display: block; top: 20px; width: 29%;
+    }
+    header > div ul li{
+        display: inline-block;
+    }
+    header > div ul li a{
+        text-decoration: none; color: #999999; display: block; font-size: 12px; font-weight: 300;
+    }
+    header > div ul li a:hover{
+        text-decoration: underline; color: #af8d5d;
+    }
+    header > div ul li:not(:first-child){
+        margin-left: 11.5%;
+    }
+    header nav ul li > div{
+        display: none; position: absolute; width: 100%; top: 0;
+        background-color: rgba(0,0,0,0.1); background-repeat: no-repeat;
+        background-size: 100%; height: 100%;
+    }
+    header nav:first-of-type ul li > div{
+        right: 0; z-index: 10; width: 50%;
+    }
+    header nav:last-of-type ul li > div{
+        left: 0; z-index: 10; width: 50%;
+    }
+    header nav ul li:nth-child(1) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/aboutHotelBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav ul li:nth-child(2) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/accommodationBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav ul li:nth-child(3) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/diningBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav ul li:nth-child(4) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/meetingBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav:nth-of-type(2) ul li:nth-child(1) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/weddingBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav:nth-of-type(2) ul li:nth-child(2) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/facilityBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav:nth-of-type(2) ul li:nth-child(3) > div{
+        background: rgba(255,255,255,0.8) url('../images/mainPng/specialOfferBg.png') center / cover no-repeat;
+        background-blend-mode: saturation;
+    }
+    header nav ul > li:hover > div{
+        display: block;
+    }
+    header nav ul > li:nth-child(2) > div:after{
+        content: ''; display: block; clear: both;
+    }
+    header nav ul > li:nth-child(2) > div > div > div{
+        float: left; 
+    }
+    header nav ul > li:nth-child(2) > div > div{
+        width: 100%;
+    }
+    header nav ul > li:nth-child(2) > div > div > div:first-of-type{
+        width: 40%;
+    }
+    header nav ul > li:nth-child(2) > div > div > div:nth-of-type(2){
+        width: 20%;
+    }
+    header nav ul > li:nth-child(2) > div > div > div:last-of-type{
+        width: 40%;
+    }
+    header nav ul > li:nth-child(4) div::after{
+        content: ''; display: block; clear: both;
+    }
+    header nav ul > li:nth-child(4) >div h2{
+        display: block;
+    }
+    header nav:first-of-type ul > li:nth-child(4) > div>*:not(h2){
+        float: left; 
+    }
+    header nav ul:first-of-type > li:nth-child(4)> div> a{
+        width: 30%;
+    }
+    header nav ul:first-of-type > li:nth-child(4) > div> div:first-of-type{
+        width: 32%;
+    }
+    header nav ul:first-of-type > li:nth-child(4) > div> div:last-of-type{
+        width: 30%;
+    }
+    header nav ul:first-of-type > li:nth-child(4) > div > a{
+       font-weight: 700; text-decoration: none; 
+    }
+    header nav ul:first-of-type > li:nth-child(4) > div > a:hover{
+        text-decoration: underline; color: #af8d5d;
+    }
+    header nav ul li:not(:nth-of-type(2)) >div h2{
+        margin: 25px 0 25px 6%;
+    }
+    header nav ul li:nth-of-type(2) >div h2{
+        margin: 25px 0 25px 2%;
+    }
+    header nav ul li >div h2,
+    header nav ul li >div h2 a{
+        font-size: 28px; font-weight: 600; color: #000000; text-decoration: none;
+        display: inline-block;
+    }
+    header nav ul li >div h2 a:hover{
+        text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px;
+        color: #af8d5d;
+    }
+    header nav:first-of-type ul li>div ol li,
+    header nav:last-of-type ul li>div ol li{
+        list-style: none; 
+    }
+    header nav ul li div ol:first-of-type,
+    header nav ul li div div ol:first-of-type,
+    header nav ul li div>div h3,
+    header nav ul li div>a{
+        margin-left: 6%;
+    }
+    header nav:first-of-type ul li>div ol li a,
+    header nav:first-of-type ul > li:nth-child(4) > div > a,
+    header nav:last-of-type ul li>div ol li a{
+        text-decoration: none; color: #000000;
+    }
+    header nav:first-of-type ul li>div ol li a:hover,
+    header nav:first-of-type ul > li:nth-child(4) > div > a:hover,
+    header nav:last-of-type ul li>div ol li a:hover {
+        color: #af8d5d; text-decoration: underline;
+    }
+    header nav:first-of-type >ul li:not(:nth-child(2),:nth-child(4)) >div ol li,
+    header nav:last-of-type > ul li> div ol li{
+        margin-bottom: 15px;
+    }
+    header nav:first-of-type >ul li >div ol li{
+        margin-bottom: 5px;
+    }
+    header nav ul li:nth-child(2) > div >div div h3,
+    header nav ul li:nth-child(4) > div >div h3{
+        color: #000000; display: inline-block; line-height: 15px;
+    }
+    header nav ul li > div ol li{
+        line-height: 25px;
+    }
+    /* * header */
+
+    footer{
+        background-color: #f0f0f0; z-index: 1000; position: relative;
+        z-index: 150;
+    }
+    footer>*{
+        position: relative;
+    }
+    footer div:nth-of-type(1){
+        background-color: #e5e5e5;
+    }
+    footer div:nth-of-type(1) ol li,
+    footer div:last-of-type address strong{
+        font-size: 12px;
+    }
+    footer div:nth-of-type(1) ol{
+        display: flex; list-style: none; flex-flow: row wrap;
+        justify-content: flex-start;
+        line-height: 50px;
+    }
+    footer div:nth-of-type(1) ol li:first-of-type{
+        margin-left: 24px;
+    }
+    footer div:nth-of-type(1) ol li:not(:first-child){
+        padding-left: 15px;
+    }
+    footer div:nth-of-type(1) ol li a{
+        text-decoration: none; color: #333333; font-size: 12px;
+        font-weight: 500;
+    }
+    footer div:nth-of-type(1) ol li:last-of-type a{
+        color: #af8d5d;
+    }
+    footer div:nth-of-type(1) ol li a:hover{
+        text-decoration: underline;
+    }
+    footer div:nth-of-type(2){
+        display: flex; flex-flow: row wrap; justify-content: flex-start
+    }
+    footer div:nth-of-type(2) h2{
+        width: 25%; display: inline-block; margin-left: 24px;
+    }
+    footer div:nth-of-type(2) h2,
+    footer div:nth-of-type(2) address{
+        padding: 40px 20px 40px 0; box-sizing: border-box;
+    }
+    footer div:nth-of-type(2) h2 img{
+        width: 100%; 
+    }
+    footer div:nth-of-type(2):after{
+        content: ''; clear: both; display: block;
+    }
+    footer div:nth-of-type(2) address{
+        width: 50%; text-decoration: none; font-style: normal;
+        float: right;
+    }
+    footer div:nth-of-type(2) address strong{
+        display: block; color: #000000; font-size: 16px;
+        margin-bottom: 10px;
+    }
+    footer div:nth-of-type(2) address:not(:first-child){
+        color: #666666; font-size: 12px; line-height: 18px;
+    }
+    footer div:nth-of-type(2) address span:not(:last-of-type),
+    footer div:nth-of-type(2) address a{
+        padding-right: 12px; border-right: 1px solid #aaaaaa;
+    }
+    footer div:nth-of-type(2) address a:nth-of-type(2){
+        padding-right: 12px;
+    }
+    footer div:nth-of-type(2) address:not(:first-child,:nth-child(2)){
+        padding-left: 12px;
+    }
+    footer div:nth-of-type(2) address a{
+        text-decoration: none; color: #666666;
+    }
+    footer div:nth-of-type(2) address a:hover{
+        text-decoration: underline;
+    }
+    footer div:nth-of-type(2) > span{
+        padding: 56px 0; height: 4%; 
+        background-repeat: no-repeat; 
+        background-size: auto; background-position: center center;
+    }
+    footer div:nth-of-type(2) > span>a{
+        display: inline-block; width: 48px; height: 48px;
+        text-indent: -9999px;
+    }
+    footer div:nth-of-type(2) > span>a:nth-of-type(1){
+        display: inline-block; 
+        background-image: url('../images/mainPng/snsInsta.png');
+    }
+    footer div:nth-of-type(2) > span>a:nth-of-type(2){
+        background-image: url('../images/mainPng/snsFacebook.png');
+    }
+    footer div:nth-of-type(2) > span>a:nth-child(3){
+        background-image: url('../images/mainPng/snsYoutube.png');
+    }
+    /* *footerFine */
+    [class$='Container']:not(.indexContainer){
+        padding-top: 190px; margin-bottom: 100px;
+    }
+    [class$='Detail']{
+        padding-top: 270px; margin-bottom: 100px;
+    }
+    .aboutContainer > article div,
+    .diningDetail>*:not(.listWrap,.pageHistory),
+    .cafeDetail>*:not(.listWrap,.pageHistory),
+    .roomDetail>*:not(.listWrap,.pageHistory,:last-of-type),
+    .roomDetail> div:last-of-type>ul,
+    .diningContainer>div:nth-of-type(2)>ul,
+    .listContainer div:nth-of-type(2)>div,
+    .meetingContainer div>ol,
+    .meetingDetail>*:not(.listWrap,.pageHistory),
+    .weddingContainer>div:last-of-type,
+    .weddingDetail>*:not(.listWrap,.pageHistory),
+    .partyDetail>*:not(.listWrap,.pageHistory),
+    .facilitiesContainer>div:last-of-type> ul,
+    .facilitiesDetail>*:not(.listWrap,.pageHistory),
+    .packageEventContainer div:last-of-type>*:not(.listWrap,.pageHistory,div>img),
+    .newsContainer div:last-of-type>*:not(.listWrap,.pageHistory,div>img),
+    .packageDetail>*:not(.listWrap,.pageHistory),
+    .eventDetail>*:not(.listWrap,.pageHistory),
+    .newsContainer>div:last-of-type>*:not(img),
+    .newsDetail>*:not(.pageHistory,.listWrap),
+    .sitemapContainer>*:not(.pageHistory),
+    .recruitmentContainer>*:not(.pageHistory),
+    .privacyContainer>*:not(.pageHistory){
+        max-width: 720px; margin: 0 auto;
+    }
+    .roomDetail > .pageHistory+div,
+    .diningDetail > .pageHistory+div,
+    .cafeDetail > .pageHistory+div,
+    .meetingDetail> .pageHistory+div,
+    .weddingDetail> .pageHistory+div,
+    .facilitiesDetail> .pageHistory+div,
+    .packageDetail>.pageHistory+div,
+    .eventDetail>.pageHistory+div{
+        margin-bottom: 60px;
+    }
+    .grandTable,.grandTable2,.middleTable,.middleTable2,.ariTable,
+    .conferTable,.conferTable2,.ABCTable,.ABCTable2,
+    .weddingDetail> div:nth-of-type(4)> .weddingTable{
+        background-color: #eaeaea;
+    }
+    table:not(.privacyWrap>*)>*,
+    table:not(.privacyWrap>*) thead th,
+    table:not(.privacyWrap>*) tbody th{
+        font-size: 18px; font-weight: 400;
+    }
+    .pageHistory{
+        margin: 0 auto 60px; max-width: 720px;
+    }
+    .pageHistory ul{
+        text-align: center; margin-bottom: 60px; display: block;
+    }
+    .pageHistory ul li{
+        display: inline-block;
+    }
+    .pageHistory ul li:not(:first-child){
+        margin-left: 15px;
+    }
+    .pageHistory ul li:last-child a{
+        color: #af8d5d; text-decoration: underline;
+    }
+    .pageHistory ul li a{
+        font-size: 14px; font-weight: 500; text-decoration: none; color: #999999;
+    }
+    .pageHistory ul li a:hover{
+        text-decoration: underline;
+    }
+    .pageHistory ul li:not(:last-child):after{
+        content: url('../images/aboutPng/historyPageArrow.png');display: inline-block; margin-left: 15px;
+        vertical-align: middle;
+    }
+    .pageHistory h2{
+        font-size: 28px; font-weight: 500; color: #000000; display: flex; align-items: center;
+        margin-bottom: 40px; 
+    }
+    .pageHistory h2:before{
+        margin-right: 25px;
+    }
+    .pageHistory h2:after{
+        margin-left: 25px;
+    }
+    .pageHistory h2:before,
+    .pageHistory h2:after{
+        content: ''; flex-grow: 1; background-color: #e6e6e6; height: 2px;
+    }
+    .pageHistory>p{
+        text-align: center; margin-bottom: 60px; line-height: 20px;
+            font-size: 12px; font-weight: 300; color: #666;
+    }
+    /* *pageHistory Fine */
+}
+
+@media screen and (min-width: 1280px){
+    [class$='Container']:not(.indexContainer){
+        padding-top: 120px; margin-bottom: 130px;
+    }
+    .mui{
+        display: none;
+    }
+    a.btnTop{
+        width: 60px; height: 60px; display: block; text-indent: -9999px;
+        background: url('../images/mainPng/topButton.png') center / contain no-repeat;
+        position: fixed; right: 2.75%; bottom: 50px; z-index: 100;
+    }
+    .popup{
+        width: 40%; background-color: #f5f5f5; padding: 40px 35px;
+        position: absolute; top: 10vh; z-index: 1000;
+        display: none; left: 50%; transform: translate(-50%,0);
+    }
+    .popup form::after{
+        content: ''; display: block; clear: both;
+    }
+    .popup form{
+        width: 100%;
+    }
+    .popup form h2:not(.btn_close){
+        text-align: center; font-size: 40px; font-weight: 600; color: #000; margin-bottom: 70px;
+        position: relative;
+    }
+    .popup form h2 a{
+        background-image: url('../images/mainPng/sghButton.png'); background-size: 40px; width: 40px; height: 40px; z-index: 10;
+        background-repeat: no-repeat; background-position: center center;
+        text-indent: -9999px; overflow: hidden; white-space: nowrap; display: block; position: absolute; top: 0; right: 0;
+    }
+    .popup form>div:not(:nth-of-type(5)),
+    .popup form>div:nth-of-type(5)> div{
+        width: 49.2%; display: inline-block;
+    }
+    .popup form>div:nth-of-type(5){
+        width: 100%; background-color: #fff; padding-top: 30px; box-sizing: border-box;
+    }
+    .popup form>div:not(:last-of-type,:nth-last-of-type(2)),
+    .popup form>div:nth-of-type(5)>*{
+        margin-bottom: 30px;
+    }
+    .popup form div>label:not(.count){
+        display: block; margin-bottom: 20px;
+    }
+    .popup form div mark{
+        font-style: normal; background-color: transparent; color: #af8d5d;
+        padding: 10px; font-size: 14px; 
+    }
+    .popup form >div:nth-of-type(2)>div{
+        background-color: #fff;
+    }
+    .popup form>div input[type='date'],
+    .popup form>div select[id$='Select'],
+    .popup form>div input[id^='ur']{
+        border: none; background-color: #fff; padding: 20px; box-sizing: border-box;
+    }
+    .popup form>div>input[type='date']{
+        width: 100%;
+    }
+    .popup form>div>div>input[type='date']{
+        width: 57%
+    }
+    .popup form div mark::before{
+        content: ''; border-right: 1px solid #666666; margin-right: 10px;
+        font-size: 16px; font-weight: 400;
+    }
+    .popup form>div select[id$='Select']{
+        width: 100%; appearance: none;
+    }
+    .popup form>div select option{
+        background-color: #fff; padding: 20px; box-sizing: border-box; 
+    }
+    .popup form>div:nth-of-type(5)>*{
+        text-align: center;
+    }
+    .popup form>div:nth-of-type(5)>div .roomCount> *,
+    .popup form>div:nth-of-type(5)>div .guestCount> *{
+        border: none; text-align: center;
+    }
+    .popup form>div .roomCount> .numRoom,
+    .popup form>div .guestCount> .numGuest{
+        font-size: 30px; font-weight: 300;
+    }
+    .popup form>div .roomCount input[type='button'],
+    .popup form>div .guestCount input[type='button']{
+        background-color: transparent; font-size: 30px; font-weight: 300; width: 12%;
+    }
+    .popup form>div input[id^='ur']{
+        margin-bottom: 40px; width: 100%;
+    }
+    .popup form p{
+        font-size: 16px; font-weight: 300; color: #666; margin-bottom: 40px;
+        display: inline-block;
+    }
+    .popup form [type='submit']{
+        background-color: #1a1a1a; color: #fff; width: 100%;
+        padding: 20px 0; font-size: 16px; font-weight: 400; box-sizing: border-box;
+    }
+    .popup.active{
+        display: block;
+    }
+    /* *popup Fine */
+    
+    header{
+        padding: 0 2.75%; box-sizing: border-box; position: fixed; width: 100%;
+        background-color: #252525; top: 0; left: 0; z-index: 100;
+        display: inline-flex; flex-flow: row nowrap; justify-content: space-between;
+        align-content: flex-end;
+    }
+    header h1{
+        width: 12%; padding: 10px 15px 10px ; box-sizing: border-box; max-width: 146px; min-height: 120px;
+    }
+    header h1 a{
+        display: block;
+    }
+    header h1 a img{
+        width: 100%;
+    }
+    header nav{
+        width: 44%; align-self: flex-end; 
+    }
+    header nav > ul{
+        display: flex;
+    }
+    header nav:nth-of-type(1) > ul > li,
+    header nav:nth-of-type(2)> ul >li:not(:nth-of-type(4)){
+        border-bottom: 4px solid transparent;
+    }
+    header nav > ul > li{
+        padding-bottom: 10px; color: #c9c9c9; cursor: default; flex: 1 auto;
+         align-self: flex-end; line-height: 40px;
+        font-size: 16px; font-weight: 500;
+    }
+    header nav:first-of-type>ul li div> ol li,
+    header nav:first-of-type>ul li div> a,
+    header nav:first-of-type>ul li div> div h3,
+    header nav:first-of-type>ul li div> div ol li,
+    header nav:last-of-type ul li>div>ol li{
+        font-size: 16px;
+    }
+    header nav > ul > li div{
+        line-height: normal
+    }
+    header nav:nth-of-type(1) > ul > li:hover,
+    header nav:nth-of-type(2)> ul >li:not(:nth-of-type(4)):hover{
+        color: #af8d5d; border-color: #af8d5d;
+    }
+    header nav:nth-of-type(2) > ul>li:last-of-type:hover{
+        color: inherit; border-color: inherit;
+    }
+    header nav > ul>li:not(:first-child){
+        margin-left: 15px;
+    }
+    header nav > ul > li span{
+        display: block; text-align: center;
+    }
+    header nav > ul > li .btn_open{
+        background-color: #af8d5d; border: none; line-height: inherit;
+        color: #ffffff; display: block; width: 100%;
+    }
+    header > div{
+        position: absolute; right: 2.75%; display: block;
+    }
+    header > div ul{
+        padding-top: 22px; box-sizing: border-box;
+    }
+    header > div ul li{
+        display: inline-block;
+    }
+    header > div ul li a{
+        text-decoration: none; color: #999999; display: block; font-size: 16px; font-weight: 300;
+    }
+    header > div ul li a:hover{
+        text-decoration: underline; color: #af8d5d;
+    }
+    header > div ul li:not(:first-child){
+        margin-left: 15px
+    }
+    header nav ul li > div{
+        display: none; position: absolute; width: 100%; top: 120px;
+        left: 0; background-color: #ffffff; background-repeat: no-repeat;
+        background-size: 50%; background-position: right center;
+        padding: 75px 0 75px 2.75%; box-sizing: border-box;
+    }
+    header nav ul li:nth-child(1) > div{
+        background-image: url('../images/mainPng/aboutHotelBg.png');
+    }
+    header nav ul li:nth-child(2) > div{
+        background-image: url('../images/mainPng/accommodationBg.png');
+    }
+    header nav ul li:nth-child(3) > div{
+        background-image: url('../images/mainPng/diningBg.png');
+    }
+    header nav ul li:nth-child(4) > div{
+        background-image: url('../images/mainPng/meetingBg.png');
+    }
+    header nav:nth-of-type(2) ul li:nth-child(1) > div{
+        background-image: url('../images/mainPng/weddingBg.png');
+    }
+    header nav:nth-of-type(2) ul li:nth-child(2) > div{
+        background-image: url('../images/mainPng/facilityBg.png');
+    }
+    header nav:nth-of-type(2) ul li:nth-child(3) > div{
+        background-image: url('../images/mainPng/specialOfferBg.png');
+    }
+    header nav ul > li:hover > div{
+        display: block; 
+    }
+    header nav ul > li > div > :first-child+:nth-child(2){
+        width: 50%;
+    }
+    header nav ul > li:nth-child(2) > div:after{
+        content: ''; display: block; clear: both;
+    }
+    header nav ul > li:nth-child(2) > div > div > div{
+        float: left;
+    }
+    header nav ul > li:nth-child(2) > div > div > div{
+        width: 33.33%; 
+    }
+    header nav ul > li:nth-child(4) > div div:first-of-type ol{
+        display: flex; flex-flow: wrap row; justify-content: space-between;
+        width: 30%;
+    }
+    header nav ul > li:nth-child(4) > div > a{
+        display: flex; flex-flow: column wrap; font-weight: 700;
+        text-decoration: none;
+    }
+    header nav ul > li:nth-child(4) > div > a:hover{
+        text-decoration: underline; color: #af8d5d;
+    }
+    header nav ul li >div h2{
+        margin-bottom: 45px; box-sizing: border-box;
+    }
+    header nav ul li >div h2,
+    header nav ul li >div h2 a{
+        font-size: 40px; font-weight: 600; color: #000000; text-decoration: none;
+        display: inline-block;
+    }
+    header nav ul li >div h2 a:hover{
+        text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px;
+        color: #af8d5d;
+    }
+    header nav:first-of-type ul li>div ol li,
+    header nav:last-of-type ul li>div ol li{
+        list-style: none;
+    }
+    header nav:first-of-type ul li>div ol li a,
+    header nav:first-of-type ul > li:nth-child(4) > div > a,
+    header nav:last-of-type ul li>div ol li a{
+        text-decoration: none; color: #000000;
+    }
+    header nav:first-of-type ul li>div ol li a:hover,
+    header nav:first-of-type ul > li:nth-child(4) > div > a:hover,
+    header nav:last-of-type ul li>div ol li a:hover {
+        color: #af8d5d; text-decoration: underline;
+    }
+    header nav:first-of-type >ul li:not(:nth-child(2),:nth-child(4)) >div ol li,
+    header nav:last-of-type > ul li> div ol li{
+        margin-bottom: 15px;
+    }
+    header nav ul li:nth-child(2) > div >div div h3,
+    header nav ul li:nth-child(4) > div >div h3{
+        color: #000000; display: inline-block; line-height: 20px;
+    }
+    header nav ul li:nth-child(2) > div >div div ol li{
+        line-height: 25px;
+    }
+    header nav ul li:nth-child(4) > div>a,
+    header nav ul li:nth-child(4) > div >div h3,
+    header nav ul li:nth-child(4) > div >div ol li:not(:last-child){
+        margin-bottom: 15px;
+    }
+    header nav ul li:nth-child(4) > div >div ol li{
+        line-height: 25px;
+    }
+    /* * header */
+
+
+    footer{
+        background-color: #f0f0f0;
+    }
+    footer div:nth-of-type(1){
+        background-color: #e5e5e5;
+    }
+    footer div:nth-of-type(1) ol li,
+    footer div:last-of-type address strong{
+        font-size: 16px;
+    }
+    footer div:nth-of-type(1) ol{
+        display: flex; list-style: none; flex-flow: row wrap;
+        justify-content: flex-start;
+        line-height: 50px;
+    }
+    footer div:nth-of-type(1) ol li:not(:first-child){
+        padding-left: 15px;
+    }
+    footer div:nth-of-type(1) ol li a{
+        text-decoration: none; color: #333333; font-size: 16px;
+        font-weight: 500;
+    }
+    footer div:nth-of-type(1) ol li:last-of-type a{
+        color: #af8d5d;
+    }
+    footer div:nth-of-type(1) ol li a:hover{
+        text-decoration: underline;
+    }
+    footer div:nth-of-type(2){
+        display: flex; flex-flow: row wrap; justify-content: flex-start
+    }
+    footer div:nth-of-type(2) h2{
+        width: 25%; display: inline-block;
+    }
+    footer div:nth-of-type(2) h2,
+    footer div:nth-of-type(2) address{
+        padding: 40px 50px 40px 0; box-sizing: border-box;
+    }
+    footer div:nth-of-type(2) h2 img{
+        width: 100%;
+    }
+    footer div:nth-of-type(2):after{
+        content: ''; clear: both; display: block;
+    }
+    footer div:nth-of-type(2) address{
+        width: 50%; text-decoration: none; font-style: normal;
+        float: right;
+    }
+    footer div:nth-of-type(2) address strong{
+        display: block; color: #000000; font-size: 16px;
+    }
+    footer div:nth-of-type(2) address:not(:first-child){
+        color: #666666; font-size: 14px; line-height: 20px;
+    }
+    footer div:nth-of-type(2) address span:not(:last-of-type),
+    footer div:nth-of-type(2) address a{
+        padding-right: 12px; border-right: 1px solid #aaaaaa;
+    }
+    footer div:nth-of-type(2) address a:nth-of-type(2){
+        padding-right: 12px;
+    }
+    footer div:nth-of-type(2) address:not(:first-child,:nth-child(2)){
+        padding-left: 12px;
+    }
+    footer div:nth-of-type(2) address a{
+        text-decoration: none; color: #666666;
+    }
+    footer div:nth-of-type(2) address a:hover{
+        text-decoration: underline;
+    }
+    footer div:nth-of-type(2) > span{
+        padding: 56px 0; height: 4%; 
+        background-repeat: no-repeat; 
+        background-size: auto; background-position: center center;
+    }
+    footer div:nth-of-type(2) > span>a{
+        display: inline-block; width: 48px; height: 48px;
+        text-indent: -9999px;
+    }
+    footer div:nth-of-type(2) > span>a:nth-of-type(1){
+        display: inline-block; 
+        background-image: url('../images/mainPng/snsInsta.png');
+    }
+    footer div:nth-of-type(2) > span>a:nth-of-type(2){
+        background-image: url('../images/mainPng/snsFacebook.png');
+    }
+    footer div:nth-of-type(2) > span>a:nth-child(3){
+        background-image: url('../images/mainPng/snsYoutube.png');
+    }
+    /* *footerFine */
+
+    .pageHistory{
+        margin: 140px auto 90px; max-width: 1200px;
+    }
+    .pageHistory ul{
+        text-align: center; margin-bottom: 80px; display: block;
+    }
+    .pageHistory ul li{
+        display: inline-block;
+    }
+    .pageHistory ul li:not(:first-child){
+        margin-left: 20px;
+    }
+    .pageHistory ul li:last-child a{
+        color: #af8d5d; text-decoration: underline;
+    }
+    .pageHistory ul li a{
+        font-size: 16px; font-weight: 500; text-decoration: none; color: #999999;
+    }
+    .pageHistory ul li a:hover{
+        text-decoration: underline;
+    }
+    .pageHistory ul li:not(:last-child):after{
+        content: url('../images/aboutPng/historyPageArrow.png');display: inline-block; margin-left: 20px;
+        vertical-align: middle;
+    }
+    .pageHistory h2{
+        font-size: 40px; font-weight: 500; color: #000000; display: flex; align-items: center;
+        margin-bottom: 40px;
+    }
+    .pageHistory h2:before{
+        margin-right: 45px;
+    }
+    .pageHistory h2:after{
+        margin-left: 45px;
+    }
+    .pageHistory h2:before,
+    .pageHistory h2:after{
+        content: ''; flex-grow: 1; background-color: #e6e6e6; height: 2px;
+    }
+    .pageHistory>p{
+        text-align: center; margin-bottom: 90px; line-height: 20px;
+        font-size: 16px; font-weight: 300; color: #666;
+    }
+    /* *pageHistory Fine */
+    .locationContainer,
+    .listWrap div,
+    footer div:nth-of-type(1) ol,
+    footer div:nth-of-type(2),
+    .indexContainer div figure,
+    .aboutContainer > article > div,
+    .listContainer div:nth-of-type(2)>div,
+    .diningContainer div:nth-of-type(2)>ul,
+    .diningDetail,.cafeDetail,
+    .roomDetail,
+    .meetingContainer div>ol,
+    .meetingDetail,
+    .weddingContainer> div:nth-of-type(3),
+    .weddingDetail,.partyDetail,
+    .facilitiesContainer> div:nth-of-type(2)> ul,.facilitiesDetail,
+    .packageEventContainer div:last-of-type>p,.packageEventContainer div:last-of-type>ul,
+    .packageDetail,.eventDetail,.newsContainer> div:nth-of-type(2)>p,.newsContainer> div:last-of-type>ul,
+    .newsDetail,
+    .sitemapContainer>*:not(.pageHistory),.privacyContainer,.recruitmentContainer{
+        max-width: 1200px; margin: 0 auto; 
+    }
+    .locationContainer,
+    .aboutContainer,
+    .historyContainer,
+    .diningDetail,.diningContainer,
+    .roomDetail > .pageHistory+div,
+    .roomDetail> div:last-of-type,
+    .diningDetail > .pageHistory+div,.cafeDetail > .pageHistory+div,.meetingDetail > .pageHistory+div,
+    .cafeDetail,.meetingDetail,
+    .weddingDetail,.weddingDetail>.pageHistory+div,
+    .partyDetail,.facilitiesDetail, .facilitiesDetail>.pageHistory+div,
+    .packageDetail,.eventDetail,.newsDetail,.sitemapContainer,
+    .privacyContainer,.recruitmentContainer{
+        margin-bottom: 130px;
+    }
+    .aboutContainer,.locationContainer,.historyContainer,
+    .diningDetail,.diningContainer,
+    .cafeDetail,.meetingDetail,.partyDetail,.facilitiesDetail,
+    .packageDetail,.eventDetail,.newsDetail{
+        padding-top: 130px;
+    }
+    .grandTable,.grandTable2,.middleTable,.middleTable2,.ariTable,
+    .conferTable,.conferTable2,.ABCTable,.ABCTable2,
+    .weddingDetail> div:nth-of-type(4)> .weddingTable{
+        background-color: #eaeaea; width: 64%; margin-left: 3%;
+    }
+    
+    table:not(.privacyWrap>*)>*,
+    table:not(.privacyWrap>*) thead th,
+    table:not(.privacyWrap>*) tbody th{
+        font-size: 24px; font-weight: 400;
+    }
+}

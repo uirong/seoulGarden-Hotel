@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeoulGardenHotel</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="favicon" href="images/sgh.ico">
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <a href="#" class="btnTop">on the Top</a>
+    <div class="shadow"></div>
+    <div class="popup" id="reservation">
+        <form>
+            <h2>
+                RESERVATION
+                <a href="#" class="btn_close">close</a>
+            </h2>
+            <div>
+                <label>CHECK-IN</label>
+                <input type="date" name="checkIn">
+            </div>
+            <div>
+                <label>CHECK-OUT</label>
+                <div>
+                    <input type="date" name="checkOut">
+                    <mark>
+                        <span>N</span>
+                        an Night
+                    </mark>
+                </div>
+            </div>
+            <div>
+                <label for="roomSelect">ROOM SELECTION</label>
+                    <select id="roomSelect">
+                        <option>STANDARD DOUBLE</option>
+                        <option>STANDARD TWIN</option>
+                        <option>TERRACE ROOM DOUBLE</option>
+                        <option>TERRACE ROOM TWIN</option>
+                        <option>FAMILY TWIN</option>
+                        <option>DELUXE DOUBLE</option>
+                        <option>DELUXE TWIN</option>
+                        <option>PREMIER SUITE DOUBLE</option>
+                        <option>PREMIER SUITE TWIN</option>
+                        <option>GARDEN SUITE ROOM</option>
+                    </select>
+            </div>
+            <div>
+                <label for="breakfastSelect">BREAKFAST STATUS</label>
+                    <select id="breakfastSelect">
+                        <option>NO</option>
+                        <option>YES (additional KRW 35,000)</option>
+                    </select>
+            </div>
+            <div>
+                <div>
+                    <label>NUMBER OF ROOMS</label>
+                        <div class="roomCount">
+                            <input type="button" value="+" class="numPlus">
+                            <input type="number" name="numberRoom" min="1" max="9" step="1" value="1" class="numRoom">
+                            <input type="button" value="-" class="numMinus">
+                        </div>
+                </div>
+                <div>
+                    <label>NUMBER OF GUESTS</label>
+                        <div class="guestCount">
+                            <input type="button" value="+" class="numPlus">
+                            <input type="number" name="numberGuest" min="2" max="6" step="1" value="2" class="numGuest">
+                            <input type="button" value="-" class="numMinus">
+                        </div>
+                </div>
+            </div>
+            <div>
+                <label for="urName">RESERVATION CUSTOMER NAME</label>
+                <input type="text" id="urName" placeholder="KIM UIYEON" required>
+            </div>
+            <div>
+                <label for="urTel" >PHONE NUMBER</label>
+                <input type="tel" id="urTel" placeholder="010 1234 5678" required>
+            </div>
+            <p>* We will confirm your reservation by contact or email within 24 hours of employee confirmation.
+                If you have not received confirmation of your reservation, please do not make a mistake as your reservation is not valid.</p> 
+                <input type="submit" value="SGH.COM">
+        </form>
+    </div>
+    <header>
+        <input type="button" value="menu" class="mui">
+        <nav>
+            <ul>
+                <li>
+                    <span>ABOUT HOTEL</span>
+                    <div>
+                        <h2>ABOUT HOTEL</h2>
+                        <ol>
+                            <li>
+                                <a href="aboutSeoul.html">ABOUT SEOULGARDEN</a>
+                            </li>
+                            <li>
+                                <a href="aboutHistory.html">HISTORY</a>
+                            </li>
+                            <li>
+                                <a href="aboutLocation.html">LOCATION</a>
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>ACCOMMODATION</span>
+                    <div>
+                        <h2>
+                            <a href="roomList.html">ACCOMMODAITON</a>
+                        </h2>
+                        <div>
+                            <div>
+                                <h3>STANDARD</h3>
+                                <ol>
+                                    <li><a href="standardDetail1.html">DOUBLE</a></li>
+                                    <li><a href="standardDetail2.html">TWIN</a></li>
+                                    <li><a href="standardDetail3.html">TERRACE ROOM DOUBLE</a></li>
+                                    <li><a href="standardDetail4.html">TERRACE ROOM TWIN</a></li>
+                                    <li><a href="standardDetail5.html">TRIPLE</a></li>
+                                    <li><a href="standardDetail6.html">FAMILY TWIN</a></li>
+                                    <li><a href="standardDetail7.html">QUAD</a></li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>DELUXE</h3>
+                                <ol>
+                                    <li><a href="deluxeDetail1.html">DOUBLE</a></li>
+                                    <li><a href="deluxeDetail2.html">TWIN</a></li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>SUITE</h3>
+                                <ol>
+                                    <li><a href="suiteDetail1.html">PREMIER SUITE DOUBLE</a></li>
+                                    <li><a href="suiteDetail2.html">PREMIER SUITE TWIN</a></li>
+                                    <li><a href="suiteDetail3.html">GARDEN SUITE ROOM</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span>DINING</span>
+                    <div>
+                        <h2>
+                            <a href="diningList.html">DINING</a>
+                        </h2>
+                            <ol>
+                                <li><a href="diningLastella.html">LA STELLA</a></li>
+                                <li><a href="diningCafe1883.html">CAFE1883</a></li>
+                            </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>MEETING &amp; BANQUET</span>
+                    <div>
+                        <h2>
+                            <a href="meetingList.html">MEETING &amp; BANQUET</a>
+                        </h2>
+                        <a href="meetingDetail1.html">GRAND BALLROOM</a>
+                        <div>
+                            <h3>MID-SIZED/SMALL</h3>
+                            <ol>
+                                <li><a href="meetingDetail2.html">Grand Ballroom A.B.C</a></li>
+                                <li><a href="meetingDetail3.html">Azalea</a></li>
+                                <li><a href="meetingDetail4.html">Lily</a></li>
+                                <li><a href="meetingDetail5.html">Rose</a></li>
+                                <li><a href="meetingDetail6.html">Iris</a></li>
+                                <li><a href="meetingDetail7.html">Cosmos</a></li>
+                                <li><a href="meetingDetail8.html">Arirang</a></li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3>MEEITNG ROOM</h3>
+                            <ol>
+                                <li><a href="mettingDetail9.html">Conference-1</a></li>
+                                <li><a href="mettingDetail10.html">Conference-2</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            <a href="index.html"><img src="images/mainPng/headerLogo.png" alt="SEOUL GARDEN HOTEL&SUITES"></a>
+        </h1>
+        <input type="button" value="menu" class="mui">
+        <nav>
+            <ul>
+                <li>
+                    <span>WEDDINGS</span>
+                    <div>
+                        <h2>
+                            <a href="weddingList.html">WEDDINGS</a>
+                        </h2>
+                        <ol>
+                            <li><a href="weddingDetail1.html">WEDDING HALLS</a></li>
+                            <li><a href="weddingDetail2.html">PARTY</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>FACILITIES</span>
+                    <div>
+                        <h2>
+                            <a href="facilitiesList.html">FACILITIES</a>
+                        </h2>
+                        <ol>
+                            <li><a href="facilitiesDetail1.html">BUSINESS CENTER</a></li>
+                            <li><a href="facilitiesDetail2.html">FITNESS</a></li>
+                            <li><a href="facilitiesDetail3.html">BARBER SHOP</a></li>
+                            <li><a href="facilitiesDetail4.html">FLOWER SHOP</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>SPECIAL OFFERS</span>
+                    <div>
+                        <h2>SPECIAL OFFERS</h2>
+                        <ol>
+                            <li><a href="offerPackage.html">PACKAGE</a></li>
+                            <li><a href="offerEvent.html">EVENT</a></li>
+                            <li><a href="offerNews.html">NEWS</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <input type="button" value="SGH.COM" data-popname="reservation" class="btn_open">
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="aboutSeoul.html">SEOUL GARDEN</a></li>
+                <li><a href="aboutLocation.html">WAY</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="roomDetail">
+        <div class="listWrap">
+            <div>
+                <a href="roomList.html">List</a>
+                <b>Premier Suite Double</b>
+                <span>
+                    <a href="suiteDetail3.html">&lt;</a>
+                    <a href="suiteDetail2.html">&gt;</a>
+                </span>
+            </div>
+        </div>
+        <div class="pageHistory">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="roomList.html">ACCOMMODATION</a>
+                </li>
+                <li>
+                    <a href="suiteDetail1.html">PREMIER SUITE DOUBLE</a>
+                </li>
+            </ul>
+            <h2>PREMIER SUITE DOUBLE</h2>
+            <p>Experience not only rest and relaxation but also successful and elegant business life at various differentiated <br>
+                rooms with the magestic views of the magestic views of the cityscape.</p>
+        </div>
+        <div>
+            <ul class="roomSlide">
+                <li><img src="images/roomPng/premier_suiteDouble1.png" alt="suiteDouble1"></li>
+                <li><img src="images/roomPng/premier_suiteDouble2.png" alt="suiteDouble2"></li>
+                <li><img src="images/roomPng/premier_suiteDouble3.png" alt="suiteDouble3"></li>
+            </ul>
+            <div>
+                <h3>RESERVE</h3>
+                <address>
+                    <a href="tel:+8227107111">TEL : +82-2-710-7111</a> <br>
+                    <a href="mailto:resv@seoulgarden.co.kr">E-MAIL : resv@seoulgarden.co.kr</a>
+                </address>
+                <input type="button" value="SGH.COM" data-popname="reservation" class="btn_open">
+            </div>
+        </div>
+        <div>
+            <h3>ROOM FACILITIES</h3>
+            <img src="images/roomPng/premier_suiteDouble4.png" alt="drawing">
+            <ul>
+                <li>
+                    <span>
+                        15:00
+                        <mark>Check-in</mark>
+                    </span>
+                    ~
+                    <span>
+                        12:00
+                        <mark>Check-out</mark>
+                    </span>
+                </li>
+                <li>
+                    <b>Capacity</b>
+                    <em>2</em>
+                </li>
+                <li>
+                    <b>Size</b>
+                    <em>
+                        51.75
+                        <sup>㎡</sup>
+                    </em>
+                </li>
+                <li>
+                    <b>Bed Type</b>
+                    <em>Double</em>
+                </li>
+                <li>
+                    <b>Bed Size</b>
+                    <em>2 x 2(m)</em>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span>SERVICE</span>
+            <ol>
+                <li>All rooms have free high-speed (wired) Internet access and Wifi</li>
+                <li>Bottled water provided daily 2 bottles</li>
+                <li>Room Service, Laundry Service</li>
+            </ol>
+        </div>
+        <div>
+            <span>AMENITIES</span>
+            <ol>
+                <li>50 "LCD TV, various satellite and cable channels.</li>
+                <li>one-control Individual heating / cooling controls</li>
+                <li>Refrigerator, regular power outlet</li>
+                <li>Telephone, voice mail, Wake-up Service</li>
+                <li>Alarm clock, a full-length mirror</li>
+                <li>Electric kettle, Complimentary coffee</li>
+                <li>Slippers, robes other securities</li>
+                <li>Hair dryer, bath, shampoo, conditioner, body wash, body lotion.</li>
+                <li>Paid Toothbrush&Toothepaste / Razor</li>
+                <li>In-room safe</li>
+                <li>Free Fitness</li>
+                <li>Multi-Outlet (USB ports, outlet)</li>
+                <li>Free Fitness</li>
+                <li>Multi-Outlet (USB ports, outlet)</li>
+                <li>Transformers (on request), Iron / ironing board (on request)</li>
+                <li>Cot (on request)</li>
+            </ol>
+        </div>
+        <div>
+            <h4>ROOM PACKAGE</h4>
+            <ul>
+                <li>
+                    <a href="packageDetail1.html"><img src="images/mainPng/mainPackage01.png" alt="autumnPackge"></a>
+                    <dl>
+                        <dt>Autumn Pacakge</dt>
+                        <dd>2022.09.13 ~ 2022.10.31</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="packageDetail2.html"><img src="images/mainPng/mainPackage02.png" alt="bathPackage"></a>
+                    <dl>
+                        <dt>Bath Package</dt>
+                        <dd>20220.09.01 ~ 2022.09.30</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="packageDetail3.html"><img src="images/mainPng/mainPackage03.png" alt="chickenPackage"></a>
+                    <dl>
+                        <dt>Chicken and beer Package</dt>
+                        <dd>2022.09.01 ~ 2022.09.30</dd>
+                    </dl>
+                </li>
+            </ul>
+            <span class="roomPrev"></span>
+            <span class="roomNext"></span>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <ol>
+                <li><a href="aboutSeoul.html">HOTEL</a></li>
+                <li><a href="recruitment.html">RECRUITMENT</a></li>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2><img src="images/mainPng/footerLogo.png" alt="SEOUL GARDEN HOTEL&SUITES"></h2>
+            <address>
+            <strong>SEOUL GARDEN HOTEL &amp; SUITES</strong>
+                <span>(04168) SEOUL GARDEN HOTEL 58</span>
+                <a href="tel:+8227107111">TEL : +82-2-710-7111</a>
+                <a href="tel:+8227107112">FAX : +82-2-710-7112</a>
+                <a href="mailto:resv@seoulgarden.co.kr">E-MAIL : resv@seoulgarden.co.krs</a>
+                <span>CEO : Lee Ilgyu, Lee Gyusang</span>
+                <span>Business registration number : 105-81-03830</span>
+                <span>Copyright ⓒ Seoul Garden Hotel Co. Ltd All Rights Reserved</span>
+            </address>
+            <span>
+                <a href="https://www.instagram.com/seoulgardenhotel/">Instagram</a>
+                <a href="https://www.facebook.com/seoulgardenhotel">Facebook</a>
+                <a href="https://www.youtube.com/results?search_query=%EC%84%9C%EC%9A%B8%EA%B0%80%EB%93%A0%ED%98%B8%ED%85%94">Youtube</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

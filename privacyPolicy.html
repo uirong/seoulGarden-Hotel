@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeoulGardenHotel</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="favicon" href="images/sgh.ico">
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <a href="#" class="btnTop">on the Top</a>
+    <div class="shadow"></div>
+    <div class="popup" id="reservation">
+        <form>
+            <h2>
+                RESERVATION
+                <a href="#" class="btn_close">close</a>
+            </h2>
+            <div>
+                <label>CHECK-IN</label>
+                <input type="date" name="checkIn">
+            </div>
+            <div>
+                <label>CHECK-OUT</label>
+                <div>
+                    <input type="date" name="checkOut">
+                    <mark>
+                        <span>N</span>
+                        an Night
+                    </mark>
+                </div>
+            </div>
+            <div>
+                <label for="roomSelect">ROOM SELECTION</label>
+                    <select id="roomSelect">
+                        <option>STANDARD DOUBLE</option>
+                        <option>STANDARD TWIN</option>
+                        <option>TERRACE ROOM DOUBLE</option>
+                        <option>TERRACE ROOM TWIN</option>
+                        <option>FAMILY TWIN</option>
+                        <option>DELUXE DOUBLE</option>
+                        <option>DELUXE TWIN</option>
+                        <option>PREMIER SUITE DOUBLE</option>
+                        <option>PREMIER SUITE TWIN</option>
+                        <option>GARDEN SUITE ROOM</option>
+                    </select>
+            </div>
+            <div>
+                <label for="breakfastSelect">BREAKFAST STATUS</label>
+                    <select id="breakfastSelect">
+                        <option>NO</option>
+                        <option>YES (additional KRW 35,000)</option>
+                    </select>
+            </div>
+            <div>
+                <div>
+                    <label>NUMBER OF ROOMS</label>
+                        <div class="roomCount">
+                            <input type="button" value="+" class="numPlus">
+                            <input type="number" name="numberRoom" min="1" max="9" step="1" value="1" class="numRoom">
+                            <input type="button" value="-" class="numMinus">
+                        </div>
+                </div>
+                <div>
+                    <label>NUMBER OF GUESTS</label>
+                        <div class="guestCount">
+                            <input type="button" value="+" class="numPlus">
+                            <input type="number" name="numberGuest" min="2" max="6" step="1" value="2" class="numGuest">
+                            <input type="button" value="-" class="numMinus">
+                        </div>
+                </div>
+            </div>
+            <div>
+                <label for="urName">RESERVATION CUSTOMER NAME</label>
+                <input type="text" id="urName" placeholder="KIM UIYEON" required>
+            </div>
+            <div>
+                <label for="urTel" >PHONE NUMBER</label>
+                <input type="tel" id="urTel" placeholder="010 1234 5678" required>
+            </div>
+            <p>* We will confirm your reservation by contact or email within 24 hours of employee confirmation.
+                If you have not received confirmation of your reservation, please do not make a mistake as your reservation is not valid.</p> 
+                <input type="submit" value="SGH.COM">
+        </form>
+    </div>
+    <header>
+        <input type="button" value="menu" class="mui">
+        <nav>
+            <ul>
+                <li>
+                    <span>ABOUT HOTEL</span>
+                    <div>
+                        <h2>ABOUT HOTEL</h2>
+                        <ol>
+                            <li>
+                                <a href="aboutSeoul.html">ABOUT SEOULGARDEN</a>
+                            </li>
+                            <li>
+                                <a href="aboutHistory.html">HISTORY</a>
+                            </li>
+                            <li>
+                                <a href="aboutLocation.html">LOCATION</a>
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>ACCOMMODATION</span>
+                    <div>
+                        <h2>
+                            <a href="roomList.html">ACCOMMODAITON</a>
+                        </h2>
+                        <div>
+                            <div>
+                                <h3>STANDARD</h3>
+                                <ol>
+                                    <li><a href="standardDetail1.html">DOUBLE</a></li>
+                                    <li><a href="standardDetail2.html">TWIN</a></li>
+                                    <li><a href="standardDetail3.html">TERRACE ROOM DOUBLE</a></li>
+                                    <li><a href="standardDetail4.html">TERRACE ROOM TWIN</a></li>
+                                    <li><a href="standardDetail5.html">TRIPLE</a></li>
+                                    <li><a href="standardDetail6.html">FAMILY TWIN</a></li>
+                                    <li><a href="standardDetail7.html">QUAD</a></li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>DELUXE</h3>
+                                <ol>
+                                    <li><a href="deluxeDetail1.html">DOUBLE</a></li>
+                                    <li><a href="deluxeDetail2.html">TWIN</a></li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>SUITE</h3>
+                                <ol>
+                                    <li><a href="suiteDetail1.html">PREMIER SUITE DOUBLE</a></li>
+                                    <li><a href="suiteDetail2.html">PREMIER SUITE TWIN</a></li>
+                                    <li><a href="suiteDetail3.html">GARDEN SUITE ROOM</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <span>DINING</span>
+                    <div>
+                        <h2>
+                            <a href="diningList.html">DINING</a>
+                        </h2>
+                            <ol>
+                                <li><a href="diningLastella.html">LA STELLA</a></li>
+                                <li><a href="diningCafe1883.html">CAFE1883</a></li>
+                            </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>MEETING &amp; BANQUET</span>
+                    <div>
+                        <h2>
+                            <a href="meetingList.html">MEETING &amp; BANQUET</a>
+                        </h2>
+                        <a href="meetingDetail1.html">GRAND BALLROOM</a>
+                        <div>
+                            <h3>MID-SIZED/SMALL</h3>
+                            <ol>
+                                <li><a href="meetingDetail2.html">Grand Ballroom A.B.C</a></li>
+                                <li><a href="meetingDetail3.html">Azalea</a></li>
+                                <li><a href="meetingDetail4.html">Lily</a></li>
+                                <li><a href="meetingDetail5.html">Rose</a></li>
+                                <li><a href="meetingDetail6.html">Iris</a></li>
+                                <li><a href="meetingDetail7.html">Cosmos</a></li>
+                                <li><a href="meetingDetail8.html">Arirang</a></li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3>MEEITNG ROOM</h3>
+                            <ol>
+                                <li><a href="mettingDetail9.html">Conference-1</a></li>
+                                <li><a href="mettingDetail10.html">Conference-2</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            <a href="index.html"><img src="images/mainPng/headerLogo.png" alt="SEOUL GARDEN HOTEL&SUITES"></a>
+        </h1>
+        <input type="button" value="menu" class="mui">
+        <nav>
+            <ul>
+                <li>
+                    <span>WEDDINGS</span>
+                    <div>
+                        <h2>
+                            <a href="weddingList.html">WEDDINGS</a>
+                        </h2>
+                        <ol>
+                            <li><a href="weddingDetail1.html">WEDDING HALLS</a></li>
+                            <li><a href="weddingDetail2.html">PARTY</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>FACILITIES</span>
+                    <div>
+                        <h2>
+                            <a href="facilitiesList.html">FACILITIES</a>
+                        </h2>
+                        <ol>
+                            <li><a href="facilitiesDetail1.html">BUSINESS CENTER</a></li>
+                            <li><a href="facilitiesDetail2.html">FITNESS</a></li>
+                            <li><a href="facilitiesDetail3.html">BARBER SHOP</a></li>
+                            <li><a href="facilitiesDetail4.html">FLOWER SHOP</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <span>SPECIAL OFFERS</span>
+                    <div>
+                        <h2>SPECIAL OFFERS</h2>
+                        <ol>
+                            <li><a href="offerPackage.html">PACKAGE</a></li>
+                            <li><a href="offerEvent.html">EVENT</a></li>
+                            <li><a href="offerNews.html">NEWS</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <input type="button" value="SGH.COM" data-popname="reservation" class="btn_open">
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="aboutSeoul.html">SEOUL GARDEN</a></li>
+                <li><a href="aboutLocation.html">WAY</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="privacyContainer">
+        <div class="pageHistory">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="privacyPolicy.html">PRIVACY POLICY</a>
+                </li>
+            </ul>
+            <h2>PRIVACY POLICY</h2>
+            <p>General rules</p>
+        </div>
+        <div class="privacyWrap">
+            <div>
+                <p>
+                    Personal information is information about a living individual, and information that can identify the individual by the name and resident registrati <br>
+                    on number contained in the information (even if the information alone cannot identify a specific individual, it can be easily combined with other in <br>
+                    formation includes those that can be identified). Seoul Garden Hotel attaches great importance to the protection of customers' personal information <br>
+                    and complies with the personal information protection regulations under the 「Act on Promotion of Information and Communications Network <br>
+                    Utilization and Information Protection, etc.」 and 「Personal Information Protection Guidelines」 established by the Ministry of Public Admini <br>
+                    stration and Security.
+                </p>
+                <p>
+                    Through the privacy policy, Seoul Garden Hotel informs you about the purpose and method of using the personal information provided by custom <br>
+                    ers and what measures are being taken to protect personal information.
+                </p>
+                <p>Seoul Garden Hotel discloses the privacy policy on the first screen of its website so that customers can check it easily at any time.</p>
+                <p>
+                    Seoul Garden Hotel establishes the necessary procedures to revise the personal information handling policy for continuous improvement of the per <br>
+                    sonal information handling policy. In addition, when revising the privacy policy, a version number, etc. is given so that customers can easily recogn <br>
+                    ize the revised information.
+                </p>
+            </div>
+            <div>
+                <small>The order of the privacy policy is as follows.</small>
+                <ol>
+                    <li>(1) Scope of collection of personal information</li>
+                    <li>(2) Consent to collection of personal information</li>
+                    <li>(3) Collection and rejection of personal information by cookies</li>
+                    <li>(4) Use for other purposes and provide and share with third parties</li>
+                    <li>(5) Reading and correction of personal information</li>
+                    <li>(6) Withdrawal of consent to collection, use and provision of personal <br>
+                        information
+                    </li>
+                    <li>(7) Retention period and destruction of personal information</li>
+                    <li>(8) Technical and administrative measures for personal information <br>
+                        protection</li>
+                    <li>(9) Link site</li>
+                </ol>
+                <ol>
+                    <li>(10) Consignment processing of personal information</li>
+                    <li>(11) Rights and obligations of users</li>
+                    <li>(12) Collecting opinions and handling complaints</li>
+                    <li>(13) Person in charge of personal information management and <br>
+                        person in charge</li>
+                    <li>(14) Protection of children's personal information</li>
+                    <li>(15) Transmission of advertising information</li>
+                    <li>(16)Policy on installation and operation of image information proces <br>
+                        sing equipment</li>
+                    <li>(17) Duty of notice</li>
+                </ol>
+            </div>
+            <ol>
+                <li>
+                    <mark>1. SCOPE AND PURPOSE OF COLLECTION OF PERSONAL INFORMATION</mark>
+                    <p>
+                        There is no separate online membership registration for Seoul Garden Hotel, and you can freely access most of the contents. <br>
+                        If you want to use Seoul Garden Hotel's reservation service, you must enter the following information, and there are no restrictions on service use if you do not enter <br>
+                        optional items.
+                    </p>
+                    <table>
+                        <caption>1.cope and purpose-TABLE</caption>
+                        <thead>
+                            <tr>
+                                <th>Division</th>
+                                <th colspan="2">Collected items</th>
+                                <th>Purpose</th>
+                                <th>Retention period</th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Online room reservation</td>
+                                    <td>Essential</td>
+                                    <td>Name, phone number, e-mail address</td>
+                                    <td>Service performance and notice delivery</td>
+                                    <td rowspan="2">Until the purpose of collection is <br>
+                                    achieved</td>
+                                </tr>
+                                <tr>
+                                    <td>Select</td>
+                                    <td>Words to leave</td>
+                                    <td>Service provision</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">Online food and <br>
+                                        beverage reservations <br>
+                                        (banquets, weddings, <br>
+                                        restaurants)
+                                    </td>
+                                    <td>
+                                        Essential
+                                    </td>
+                                    <td>
+                                        Name, phone number, e-mail address
+                                    </td>
+                                    <td>
+                                        Service performance and notice delivery
+                                    </td>
+                                    <td rowspan="2">
+                                        Until the purpose of collection is <br>
+                                        achieved
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Select</td>
+                                    <td>Words to leave</td>
+                                    <td>Service provision</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">Room registration card</td>
+                                    <td>Essential</td>
+                                    <td>Name, nationality, date of birth, <br>
+                                        contact information</td>
+                                    <td>Identity verification procedure for pro <br>
+                                        viding re-visit service, complaint hand <br>
+                                        ling and civil complaint handling such <br>
+                                        as lost items</td>
+                                    <td rowspan="2">2 years (however, computerized data <br>
+                                        is kept for 5 years)</td>
+                                </tr>
+                                <tr>
+                                    <td>Select</td>
+                                    <td>Address, gender, passport number, <br>
+                                        email
+                                    </td>
+                                    <td>Use of personal identification, service p <br>
+                                        rovision, hotel product and promotion <br>
+                                        information</td>
+                                </tr>
+                                <tr>
+                                    <td>VIP Membership</td>
+                                    <td>Essential</td>
+                                    <td>
+                                        Name, date of birth, mobile phone nu <br>
+                                        mber, registration application date
+                                    </td>
+                                    <td>Member service provision</td>
+                                    <td>3 years</td>
+                                </tr>
+                                <tr>
+                                    <td>Event ticket</td>
+                                    <td>Essential</td>
+                                    <td>Name, mobile phone number</td>
+                                    <td>
+                                        Service provision, notice delivery, event <br>
+                                        information, sending of invitations
+                                    </td>
+                                    <td>3 years</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                </li>
+                <li>
+                    <mark>2. CONSENT TO COLLECTION OF PERSONAL INFORMATIONonsent to collection of personal information</mark>
+                    <p>
+                        Seoul Garden Hotel prepares a procedure for the customer to click the “I agree” button or “I do not agree” button to the contents of the Seoul Garden Hotel’s privacy <br>
+                        policy or terms of use, and only when clicking the “Agree” button You agree to the collection of personal information.
+                    </p>
+                </li>
+                <li>
+                    <mark>3. COLLECTION AND REJECTION OF PERSONAL INFORMATION BY COOKIES</mark>
+                    <p>
+                        Seoul Garden Hotel uses cookies to store and retrieve customer information for some services. Cookies are small pieces of information that a website server sends to <br>
+                        your computer's browser. After accessing the Seoul Garden Hotel website, the customer must allow cookies to use the online reservation service. You have a choice <br>
+                        about cookies and can choose whether to use them. You can accept all cookies, check each time a cookie is saved, or refuse to save all cookies. However, if you refuse to <br>
+                        store cookies, it may interfere with the use of some services. Cookies identify your computer, but do not personally identify you, and expire when the computer <br>
+                        browser is closed.
+                    </p>
+                    <b>Example of setting method (in case of Internet Explorer): Tools at the top of the web browser > Internet Options > Personal Information</b>
+                </li>
+                <li>
+                    <mark>4. NON-PURPOSE USE AND PROVISION AND SHARING TO THIRD PARTIES</mark>
+                    <ul>
+                        <li>
+                            <p>
+                                1. Seoul Garden Hotel uses customers' personal information within the scope notified in 『Purpose of Collection and Use of Personal Information』, and does not <br>
+                                use it beyond this range or provide it to others or other companies/organizations. In particular, We will use and provide personal information with care.
+                            </p>
+                            <ol>
+                                <li>
+                                    <span>-Affiliate relationship</span> <br>
+                                    <p>
+                                        In order to provide better service, we may provide or share customers' personal information with affiliates. However, the name of the affiliate, the purpose of the <br>
+                                        partnership, the service provided, the scope of sharing of personal information, the purpose of use, and the period of the partnership will be notified in detail in ad <br>
+                                        vance, and consent will be sought through e-mail or in writing.
+                                    </p>
+                                </li>
+                                <li>
+                                    <span>-Consignment processing</span> <br>
+                                    <p>
+                                        In the case of consignment processing of user's personal information for smooth business processing, the name of the consigned processing company, the scope of <br>
+                                        the consigned personal information, the consignment purpose, the consignment processing process, and the consignment period shall be notified in detail in <br>
+                                        advance.
+                                    </p>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            2. Notification and consent method Through the online website, at least 10 days in advance, and at the same time, individually through e-mail, etc. at least once.
+                        </li>
+                        <li>
+                            3. Exceptions
+                            <ul>
+                                <li>
+                                    <span>
+                                        -When there is a request from a related institution for investigative purposes in accordance with related laws and regulations - When <br>
+                                        providing to an advertiser's partner or research group in a form that cannot identify a specific individual for statistical preparation, academic research, or market <br>
+                                        research
+                                    </span>
+                                    <span>
+                                        -Other related laws If there is a request according to the procedure set out in
+                                    </span>
+                                    However, even in exceptional cases, when information is provided according to related laws or at the request of an investigation agency, it is in principle to notify the <br>
+                                    person concerned. We may not be able to give notice due to legal reasons. We will do our best not to provide information indiscriminately against the original <br>
+                                    purpose of collection and use.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <mark>5. READING AND CORRECTION OF PERSONAL INFORMATION</mark>
+                    <p>
+                        The customer can view or correct the registered customer's personal information at any time. If you contact the person in charge of personal information manage <br>
+                        ment and the person in charge in writing, by phone or by e-mail, we will take action within the minimum time set according to the business procedure. <br>
+                        If a customer requests correction of errors in personal information, the personal information will not be used or provided until the correction is completed. <br>
+                        If incorrect personal information has already been provided to a third party, we will notify the third party of the result of the correction without delay and take <br>
+                        measures to correct it.
+                    </p>
+                </li>
+                <li>
+                    <mark>6. WITHDRAWAL OF CONSENT TO COLLECTION, USE AND PROVISION OF PERSONAL INFORMATION</mark>
+                    <p>
+                        Customers can withdraw their consent to the collection, use and provision of personal information through online reservations at any time. If you contact the person <br>
+                        in charge of personal information management and the person in charge in writing, by phone, or by e-mail, we will immediately take necessary measures such as <br>
+                        deletion of personal information. In the event of withdrawal of consent and the destruction of personal information, we will notify the customer without delay. 
+                    </p>
+                </li>
+                <li>
+                    <mark>7. RETENTION PERIOD AND DESTRUCTION OF PERSONAL INFORMATION</mark>
+                    <ul>
+                        <li>
+                            1. Customer's personal information will be destroyed when the purpose of collecting or providing personal information is achieved as follows. In case of withdrawal <br>
+                            from membership or expulsion from membership, the purpose of retention, period, and items of personal information to be retained are specified in advance to <br>
+                            obtain consent.
+                            <ol>
+                                <li>
+                                    - Records that need to be preserved as evidence in litigation or dispute : <strong>5 years</strong> <br>
+                                </li>
+                                <li>
+                                    
+                                    - Records on consumer complaints or dispute resolution : <strong>3 years</strong>
+                                </li>
+                                <li>
+                                    If a customer requests to view transaction information, etc. held with the customer's consent, Seoul Garden Hotel will take measures so that the reading can be <br>
+                                    confirmed without delay.
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            2.Destruction method <br>
+                            Seoul Garden Hotel immediately destroys the personal information after the 'purpose of personal information processing' is achieved or the 'processing and <br>
+                            retention period' has elapsed.
+                            <ol>
+                                <li>
+                                    - Personal information printed on paper is destroyed by shredding or incineration
+                                </li>
+                                <li>
+                                    - Personal information stored in the form of an electronic file is deleted using a technical method that cannot reproduce the record.
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <mark>8. TECHINICAL AND ADMINISTRATIVE MEASURES FOR PERSONAL INFORMATION PROTECTION</mark>
+                    <ol>
+                        <li>
+                            1. Technical measures <br>
+                            Seoul Garden Hotel takes the following technical measures to ensure safety in handling customers' personal information so that personal information is not lost, <br>
+                            stolen, leaked, altered or damaged.
+                            <ul>
+                                <li>
+                                    - Customer's personal information is protected by password.
+                                </li>
+                                <li>
+                                    - Seoul Garden Hotel is taking measures to prevent damage caused by computer viruses by using a vaccine program. Vaccine programs are updated periodically, and <br>
+                                    in the event of a sudden virus outbreak, the vaccine is provided as soon as it is released to prevent infringement of personal information.
+                                </li>
+                                <li>
+                                    - In order to prepare for unauthorized external intrusion, we use firewalls, etc. to ensure security.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            2. Administrative measures
+                            <ul>
+                                <li>
+                                    - Seoul Garden Hotel limits access to customers' personal information to a minimum number of people. Those who fall under the minimum number of people are as <br>
+                                    follows.
+                                    <ol>
+                                        <li>
+                                            1. Persons who perform marketing tasks directly with users
+                                        </li>
+                                        <li>
+                                            2. Persons who perform personal information management tasks such as the person in charge of personal information management and the person in charge
+                                        </li>
+                                        <li>
+                                            3. Persons whose handling of personal information is unavoidable for other business
+                                        </li>
+                                    </ol>
+                                    purposes - For employees who handle personal information As a result, regular in-house training and outsourced training are conducted on acquisition of new
+                                    security technologies and obligations to protect personal information.
+                                </li>
+                                <li>
+                                    - Internal procedures are in place to prevent information leakage by humans through the security pledge of the personal information handler at the time of joining
+                                    the company, and to audit the implementation of the personal information handling policy and the compliance of the employees.
+                                </li>
+                                <li>
+                                    - The handover of personal information-related handlers is carried out thoroughly with security maintained, and responsibility for personal information accidents
+                                    after joining and leaving the company is clarified. Access is controlled by setting the computer room and data storage room as special protection areas.
+                                </li>
+                                <li>
+                                    - In the event that personal information is lost, leaked, altered, or damaged due to the mistake of an internal manager or an accident in technical management, Seoul
+                                    Garden Hotel will immediately notify you and take appropriate measures.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <mark>9. LINK SITE</mark>
+                    <p>
+                        Seoul Garden Hotel may provide its guests with links to websites or materials of other companies. In this case, Seoul Garden Hotel has no control over external sites
+                        and materials, and therefore cannot be held responsible for the usefulness of services or materials provided by them. If you click on a link included by Seoul Garden
+                        Hotel and move to a page on another site, the privacy policy of that site is irrelevant to Seoul Garden Hotel, so please review the privacy policy of the newly visited
+                        site. wish.
+                    </p>
+                </li>
+                <li>
+                    <mark>10. CONSIGNMENT PROCESSING OF PERSONAL INFORMATION</mark>
+                    <p>
+                        <small>In order to improve the service, the company entrusts the handling of personal information to an external professional company as follows.</small> <br>
+                        Consignee (trustee) : Affiliate Technology Information <br>
+                        Entrusted work	Period of use : Hotel operation system maintenance work <br>
+                        Period of use : Until the end of the consignment contract
+                    </p>
+                </li>
+                <li>
+                    <mark>11. RIGHTS AND OBLIGATIONS OF USERS</mark>
+                    <p>
+                        Please prevent unexpected accidents by entering the customer's personal information accurately and up-to-date. The customer is responsible for any accidents that <br>
+                        occur due to inaccurate information entered by the customer. If false information such as the theft of other information is entered, the membership may be lost, and <br>
+                        all legal responsibilities are the responsibility of the person who entered the theft or false information. becomes. <br>
+                        In addition to the right to privacy, customers also have an obligation to protect themselves and not infringe on the information of others. Be careful not to leak your <br>
+                        personal information, including passwords, and be careful not to damage other people's personal information, including postings. If you fail to fulfill this <br>
+                        responsibility and damage the information and dignity of others, you may be punished under the 「Act on Promotion of Information and Communications <br>
+                        Network Utilization and Information Protection, etc.」.
+                    </p>
+                </li>
+                <li>
+                    <mark>12. OPINON GATHERING AND COMPLAINT HEADING</mark>
+                    <p>
+                        Seoul Garden Hotel values customers' opinions, and customers have the right to receive sincere answers to their questions at all times. We have installed a customer <br>
+                        service phone line for smooth communication with our customers.
+                    </p>
+                    <address>
+                        <a href="tel:+8227107111">Telephone number : 02-710-7111</a> <br>
+                        <a href="tel:+8227107111">Fax number : 02-710-7111</a> <br>
+                        <a href="mailto:resv@seoulgarden.co.kr">E-mail : resv@seoulgarden.co.kr</a> <br>
+                    </address>
+                    <p>
+                        Telephone consultations are available from 9 am to 6 pm on weekdays. Consultation by e-mail, fax or mail will be answered sincerely within 24 hours after receipt. <br>
+                        However, in principle, it is processed the next day after working hours or on weekends and holidays.
+                    </p>
+                    <p>
+                        If you need advice on other personal information, you can inquire at the Personal Information Infringement Report Center, the Supreme Prosecutors' Office <br>
+                        Internet Crime Investigation Center, or the Cyber Crime Investigation Unit of the National Police Agency.
+                    </p>
+                    <ul>
+                        <li>
+                            <b>Personal Information Infringement Report Center</b>
+                            <a href="tel:1336">Phone: 1336 / </a>
+                            <a href="http://www.cyberprivacy.or.kr">URL: http://www.cyberprivacy.or.kr</a>
+                        </li>
+                        <li>
+                            <b>Supreme Prosecutors' Office Internet Crime Investigation Center</b>
+                            <a href="tel:+82234803600">Phone: 02-3480-3600 /</a>
+                            <a href="http://icic.sppo.go.kr">URL: http://icic.sppo.go.kr</a>
+                        </li>
+                        <li>
+                            <b>National Police Agency Cyber Crime Investigation Unit</b>
+                            <a href="http://www.police.go.kr">URL: http://www.police.go.kr</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <mark>13. PERSON IN CHARGE OF PERSONAL INFORMATION PROTECTION MANAGEMENT AND PERSON IN CHARGE</mark>
+                    <p>
+                        Seoul Garden Hotel is doing its best to ensure that customers can use the website safely. In case of an accident that goes against the notices to customers in protecting <br>
+                        personal information, the person in charge of personal information management takes all responsibility. However, despite taking technical supplementary <br>
+                        measures, we are not responsible for information damage caused by unexpected accidents caused by basic network risks such as hacking, and for various disputes <br>
+                        caused by posts made by visitors. The person in charge and person in charge of handling customers' personal information is as follows, and we respond promptly and <br>
+                        faithfully to inquiries related to personal information. 
+                    </p>
+                    <table class="personCharge">
+                        <caption>13. person in charge-Table</caption>
+                        <thead>
+                            <tr>
+                                <th>Division</th>
+                                <th>Personal Information Manager</th>
+                                <th>Personal Information Manager</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Name</td>
+                                <td>Lee Seong-soo</td>
+                                <td>Lee Sang-bong</td>
+                            </tr>
+                            <tr>
+                                <td>Position</td>
+                                <td>General Manager</td>
+                                <td>Finance Team Leader</td>
+                            </tr>
+                            <tr>
+                                <td>Phone number</td>
+                                <td><a href="tel:82+27107182">02-710-7182</a></td>
+                                <td><a href="tel:82+27107113">02-710-7113</a></td>
+                            </tr>
+                            <tr>
+                                <td>Fax Number</td>
+                                <td><a href="tel:82+27107333">02-710-7333</a></td>
+                                <td><a href="tel:82+27107116">02-710-7116</a></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td><a href="mailto:gm@seoulgarden.co.kr">gm@seoulgarden.co.kr</a></td>
+                                <td><a href="mailto:sblee@seoulgarden.co.kr">sblee@seoulgarden.co.kr</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <mark>14. CHILDREN'S PRIVACY</mark>
+                    <p>
+                        Seoul Garden Hotel considers it important to protect the personal information of children under the age of 14 and strives to protect it. Accordingly, Seoul Garden <br>
+                        Hotel does not allow minors under the age of 14 to sign up as a member and make online reservations. In other words, minors under the age of 14 cannot receive <br>
+                        3.membership services at Seoul Garden Hotel.
+                    </p>
+                </li>
+                <li>
+                    <mark>15. TRANSMISSION OF ADVERTISING INFORMATION</mark>
+                    <ol>
+                        <li>
+                            1. Seoul Garden Hotel does not transmit commercial information for commercial purposes against the customer's explicit refusal to receive it.
+                        </li>
+                        <li>
+                            2. When the customer consents to the transmission of e-mails such as newsletters, Seoul Garden Hotel takes measures such as the following in the subject and body <br>
+                            of the e-mail so that the customer can easily recognize it.
+                            <ul>
+                                <li>
+                                    <em>- Subject line of E-mail</em>
+                                    The phrase (advertisement) may not be displayed in the subject line, and the main content of the e-mail body is displayed.
+                                </li>
+                                <li>
+                                    <em>- The body of the E-mail</em>
+                                    The customer specifies the name, e-mail address, and phone number of the sender who can express his/her intention to reject the reception. The method by which <br>
+                                    customers can easily express their intention to opt out is specified in Korean and English respectively.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            3. When the Seoul Garden Hotel transmits advertising information by e-mail, etc. for online marketing such as product information guidance, the subject and body <br>
+                            of the e-mail shall contain the following measures so that customers can easily recognize it.
+                            <ul>
+                                <li>
+                                    <em>- Subject line of E-mail</em> <br>
+                                    Displays the phrase (advertisement) in Korean without spaces at the beginning of the subject line, followed by the main content of the e-mail body line.
+                                </li>
+                                <li>
+                                    <em>- The body of the E-mail</em> <br>
+                                    Specify the name, e-mail address, and phone number of the sender to which the customer can express his/her intention to reject the reception. The method by <br>
+                                    which the customer can easily express his/her intention of refusal of reception is specified in Korean and English respectively.
+                                </li>
+                                <li>
+                                    - In the case of transmitting commercial advertising information through text transmission other than e-mail, such as fax or mobile phone text transmission, <br>
+                                    the text (advertising) shall be written at the beginning of the transmission and the sender's contact information shall be specified in the transmission.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <mark>16. POLICY ON INSTALLATION AND OPRATION OF IMAGE INFORMATION PROCESSING EQUIPMENT</mark>
+                    <small>Seoul Garden Hotel installs and operates image information processing equipment as follows.</small>
+                    <ol>
+                        <li>
+                            1. Grounds for installation: Article 25 Paragraph 1 of the Personal Information Protection Act1. Grounds for installation: Article 25 Paragraph 1 of the Personal Information Protection Act
+                        </li>
+                        <li>
+                            2. Purpose of installation: The purpose of installation is to utilize factual evidence such as the safety of customers/employees entering and exiting the Seoul Garden 
+                            Hotel, protection of hotel assets, evidence of various accidents, and securing the safety of facilities/users from disasters such as fire.
+                        </li>
+                        <li>
+                            3. Number of installed units, installation range and shooting range: 113 units in total <br>
+                            Number of Installations : 117 <br>
+                            Installation location and Shooting range : Hotel main building, elevator, parking lot
+                        </li>
+                        <li>
+                            4. Manager and access authority
+                        </li>
+                        <li>
+                            <table>
+                                <caption>16. Manager and access-Table</caption>
+                                <thead>
+                                    <tr>
+                                        <th>Division</th>
+                                        <th>Name</th>
+                                        <th>Spot</th>
+                                        <th>Belong</th>
+                                        <th>Contact</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Manager</td>
+                                        <td>Duty Manager Sanghee Kim</td>
+                                        <td>Exaggeration</td>
+                                        <td>Room Team</td>
+                                        <td><a href="tel:82+27107222">02-710-7222</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Access Authority</td>
+                                        <td>Guard Chief Hwang Jong-taek</td>
+                                        <td>Class monitor</td>
+                                        <td>Security Guard</td>
+                                        <td><a href="tel:82+27107125">02-710-7125</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        <li>
+                            5. Recording time, storage period, storage location and processing method of video information Manager and access authority
+                            <ul>
+                                <li>
+                                    Shooting time : 24 hours
+                                </li>
+                                <li>
+                                    Storage period : 40 days from the date of shooting
+                                </li>
+                                <li>
+                                    Storage : 1st floor safety room
+                                </li>
+                                <li>
+                                    <em>- Processing method</em>
+                                    Records and manages matters related to requests such as use of personal image information for purposes other than the intended use, provision to a third party, <br>
+                                    destruction, and viewing, and permanently deletes it in a way that cannot be restored when the storage period expires (in the case of printed materials, shred or <br>
+                                    .incinerate) do.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            6. How and where to check image information processing
+                            <ul>
+                                <li>
+                                    <em>- How to check</em>
+                                    You can check it by contacting the person in charge of video information management in advance and visiting the head office with supporting documents.
+                                </li>
+                                <li>
+                                    <em>- Location to be checked</em>
+                                    Duty Desk, Room Team
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            7. Measures for requests such as viewing of video information by data subjects
+                            <p>
+                                If you wish to view or confirm the existence or delete of personal image information, you can request it from the person in charge of image information <br>
+                                management of the image information processing device at any time by filling out a confirmation form. However, it is limited to the personal image information <br>
+                                captured by you and the personal image information that is clearly necessary for the immediate life, body and property of the information subject.
+                            </p>
+                        </li>
+                        <li>
+                            8. Measures to ensure the safety of video information
+                            <p>
+                                Video information processed by the company is safely managed through encryption measures, etc. In addition, as an administrative measure for the protection of <br>
+                                personal image information, the company grants different access rights to personal information, and to prevent forgery and falsification of personal image <br>
+                                information, the date and time of creation of personal image information, the purpose of reading when reading, the viewer, the date and time of reading Records <br>
+                                and manages, etc. In addition, a locking device is installed for safe physical storage of personal image information.
+                            </p>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <mark>17. DUTY OF NOTICE</mark>
+                    <p>
+                        The current personal information protection policy was enacted on June 20, 2005, and if there is any addition, deletion or modification of the contents according to <br>
+                        the change of government policy or security technology, we will notify you through the website without delay.
+                    </p>
+                    <ul>
+                        <li>
+                            Privacy Policy Version Number: v1.6
+                        </li>
+                        <li>
+                            Privacy Policy Enforcement Date: 2005-06-20
+                        </li>
+                        <li>
+                            Privacy Policy Change Date: 2007-06-08
+                        </li>
+                        <li>
+                            Privacy Policy Change Date: 2012-03-1 <a href="../personaldata_2012.docx">(Download the previous version)</a>
+                        </li>
+                        <li>
+                            Installation and operation policy for image information processing equipment: 2012-03-27 <a href="../picture_2012.docx">(Download previous version)</a>
+                        </li>
+                        <li>
+                            Date of change of privacy policy (integration of installation and operation policy for image information processing equipment): 2014-10-10 <br>
+                            <a href="../personaldata_2014.docx">(Download the previous version)</a>
+                        </li>
+                        <li>
+                            Privacy Policy Change Date: 2016.11.29. <a href="../personaldata_2016.docx">(Download the previous version)</a>
+                        </li>
+                        <li>
+                            above privacy policy on the Seoul Garden Hotel website is effective from August 17, 2018.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <ol>
+                <li><a href="aboutSeoul.html">HOTEL</a></li>
+                <li><a href="recruitment.html">RECRUITMENT</a></li>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2><img src="images/mainPng/footerLogo.png" alt="SEOUL GARDEN HOTEL&SUITES"></h2>
+            <address>
+            <strong>SEOUL GARDEN HOTEL &amp; SUITES</strong>
+                <span>(04168) SEOUL GARDEN HOTEL 58</span>
+                <a href="tel:+8227107111">TEL : +82-2-710-7111</a>
+                <a href="tel:+8227107112">FAX : +82-2-710-7112</a>
+                <a href="mailto:resv@seoulgarden.co.kr">E-MAIL : resv@seoulgarden.co.kr</a>
+                <span>CEO : Lee Ilgyu, Lee Gyusang</span>
+                <span>Business registration number : 105-81-03830</span>
+                <span>Copyright ⓒ Seoul Garden Hotel Co. Ltd All Rights Reserved</span>
+            </address>
+            <span>
+                <a href="https://www.instagram.com/seoulgardenhotel/">Instagram</a>
+                <a href="https://www.facebook.com/seoulgardenhotel">Facebook</a>
+                <a href="https://www.youtube.com/results?search_query=%EC%84%9C%EC%9A%B8%EA%B0%80%EB%93%A0%ED%98%B8%ED%85%94">Youtube</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
