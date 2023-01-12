@@ -49,9 +49,9 @@ footer div address span,footer div address >a,
 .eventDetail>div>div address>*,.eventDetail .eventExplan>*:not(h3),.eventDetail> ul>*:not(b),.eventDetail>div:not(.eventExplan):last-of-type:not(b)>*:not(b),
 .newsContainer:last-of-type,
 .newsDetail> figure figcaption dl dd,.newsDetail> div:not(.pageHistory):last-of-type,.newsDetail>p,.newsDetail>small,.newsDetail>table,
-.sitemapContainer ul>*:not(h3),.sitemapContainer div:not(h3,.pageHistory)>*,.privacyWrap,
+.sitemapContainer>ul>*:not(h3),.sitemapContainer div:not(h3,.pageHistory)>*,.privacyWrap,
 .recruitmentContainer>div:not(.pageHistory)>*:not(h3),
-.popup form div mark,.poptup form div>label>select option,.poptup form div>label>.count>*,.poptup form div [type='text'],.poptup form div [type='tel'],.popup>form>p,
+.popup form div mark,.popup form div>label>select option,.popup form div>label>.count>*,.popup form div [type='text'],.popup form div [type='tel'],.popup>form>p,
 .popup form div input[type='date'],.popup form div>.roomCount>*,.popup form div>.guestCount>*,.popup form div input[id^='ur'],.popup>form div>#roomSelect,.popup>form div>#breakfastSelect{
     font-family: 'Neuton';
 }
@@ -199,10 +199,6 @@ table:not(#airportTab>table) caption{
         display: block;
     }
     /* *popup Fine */
-
-
-
-
     a.btnTop{
         width: 40px; height: 40px; display: block; text-indent: -9999px;
         background: url('../images/mainPng/topButton.png') center / contain no-repeat;
@@ -241,7 +237,7 @@ table:not(#airportTab>table) caption{
     header nav{
         display: none;
         width: 100%; position: absolute; top: 167px;
-        background-color: #cccccc;
+        background-color: #cccccc; z-index: 500;
         padding-top: 40px; box-sizing: border-box;
     }
     header > input[type='button'].active + nav{
@@ -383,9 +379,8 @@ table:not(#airportTab>table) caption{
     footer div:nth-of-type(1) ol li:not(:last-of-type){
         width: 33%;
     }
-    footer div:nth-of-type(1) ol li:not(:last-of-type)
-    footer div:last-of-type address strong{
-        font-size: 14px;
+    footer div:nth-of-type(1) ol li{
+        font-size: 12px;
     }
     footer div:nth-of-type(1) ol li a{
         text-decoration: none; color: #333; font-weight: 500;
@@ -397,24 +392,21 @@ table:not(#airportTab>table) caption{
         text-decoration: underline;
     }
     footer div:nth-of-type(2){
-        padding: 20px 0;
+        padding: 20px 0; font-size: 11px;
     }
     footer div:nth-of-type(2) h2,
     footer div:nth-of-type(2) >span{
         display: none;
     }
     footer div:nth-of-type(2) address{
-        text-align: center;
-    }
-    footer div:nth-of-type(2) address{
-        width: 100%; text-decoration: none; font-style: normal;
+        text-align: center; width: 100%; text-decoration: none; font-style: normal;
     }
     footer div:nth-of-type(2) address strong{
         display: block; color: #000000; 
         margin-bottom: 20px;
     }
-    footer div:nth-of-type(2) address:not(:first-child){
-        color: #666666; font-size: 12px; line-height: 18px;
+    footer div:nth-of-type(2)>address>*{
+        color: #666666; line-height: 18px;
     }
     footer div:nth-of-type(2) address>*:not(:first-child,:last-child){
         margin-bottom: 20px;
@@ -439,23 +431,7 @@ table:not(#airportTab>table) caption{
         text-decoration: underline;
     }
     footer div:nth-of-type(2) > span{
-        padding: 56px 0; height: 4%; 
-        background-repeat: no-repeat; 
-        background-size: auto; background-position: center center;
-    }
-    footer div:nth-of-type(2) > span>a{
-        display: inline-block; width: 48px; height: 48px;
-        text-indent: -9999px;
-    }
-    footer div:nth-of-type(2) > span>a:nth-of-type(1){
-        display: inline-block; 
-        background-image: url('../images/mainPng/snsInsta.png');
-    }
-    footer div:nth-of-type(2) > span>a:nth-of-type(2){
-        background-image: url('../images/mainPng/snsFacebook.png');
-    }
-    footer div:nth-of-type(2) > span>a:nth-child(3){
-        background-image: url('../images/mainPng/snsYoutube.png');
+        display: none;
     }
     /* *footerFine */
     [class$='Container']:not(.indexContainer){
@@ -704,7 +680,7 @@ table:not(#airportTab>table) caption{
     }
     header nav{
         display: none;
-        width: 100%; position: absolute; top: 129px;
+        width: 100%; position: absolute; top: 129px; z-index: 200;
         background-color: rgba(229, 229, 229, 0.97);
         padding: 30px 0 145px; box-sizing: border-box;
     }
@@ -830,13 +806,13 @@ table:not(#airportTab>table) caption{
         width: 100%;
     }
     header nav ul > li:nth-child(2) > div > div > div:first-of-type{
-        width: 40%;
+        width: 38%;
     }
     header nav ul > li:nth-child(2) > div > div > div:nth-of-type(2){
         width: 20%;
     }
     header nav ul > li:nth-child(2) > div > div > div:last-of-type{
-        width: 40%;
+        width: 42%;
     }
     header nav ul > li:nth-child(4) div::after{
         content: ''; display: block; clear: both;
@@ -866,7 +842,7 @@ table:not(#airportTab>table) caption{
         margin: 25px 0 25px 6%;
     }
     header nav ul li:nth-of-type(2) >div h2{
-        margin: 25px 0 25px 2%;
+        margin: 25px 0 25px 6%;
     }
     header nav ul li >div h2,
     header nav ul li >div h2 a{
@@ -881,9 +857,15 @@ table:not(#airportTab>table) caption{
     header nav:last-of-type ul li>div ol li{
         list-style: none; 
     }
-    header nav ul li div ol:first-of-type,
-    header nav ul li div div ol:first-of-type,
-    header nav ul li div>div h3,
+    header nav ul li:nth-of-type(2)>div>div{
+        margin-left: 6%;
+    }
+    header nav ul li:not(:nth-of-type(2)) div ol:first-of-type,
+    header nav:last-of-type ul li div ol:first-of-type,
+    header nav ul li:not(:nth-of-type(2)) div:not(:nth-of-type(2)) div ol:first-of-type,
+    header nav:last-of-type ul li div:not(:nth-of-type(2)) div ol:first-of-type,
+    header nav ul li:not(:nth-of-type(2)) div>div h3,
+    header nav:last-of-type ul li div>div h3,
     header nav ul li div>a{
         margin-left: 6%;
     }
@@ -975,15 +957,16 @@ table:not(#airportTab>table) caption{
     footer div:nth-of-type(2) address:not(:first-child){
         color: #666666; font-size: 12px; line-height: 18px;
     }
+    footer div:nth-of-type(2) address>*:not(strong){
+        padding-right: 10px;
+    }
+    footer div:nth-of-type(2) address a,
+    footer div:nth-of-type(2) address span:not(:first-of-type){
+        padding-left: 10px;
+    }
     footer div:nth-of-type(2) address span:not(:last-of-type),
     footer div:nth-of-type(2) address a{
-        padding-right: 12px; border-right: 1px solid #aaaaaa;
-    }
-    footer div:nth-of-type(2) address a:nth-of-type(2){
-        padding-right: 12px;
-    }
-    footer div:nth-of-type(2) address:not(:first-child,:nth-child(2)){
-        padding-left: 12px;
+        border-right: 1px solid #aaaaaa;
     }
     footer div:nth-of-type(2) address a{
         text-decoration: none; color: #666666;
@@ -1229,7 +1212,7 @@ table:not(#airportTab>table) caption{
         width: 100%;
     }
     header nav{
-        width: 44%; align-self: flex-end; 
+        width: 44%; align-self: flex-end; z-index: 200;
     }
     header nav > ul{
         display: flex;
@@ -1560,7 +1543,7 @@ table:not(#airportTab>table) caption{
         margin-bottom: 130px;
     }
     .aboutContainer,.locationContainer,.historyContainer,
-    .diningDetail,.diningContainer,
+    .roomDetail,.diningDetail,.diningContainer,
     .cafeDetail,.meetingDetail,.partyDetail,.facilitiesDetail,
     .packageDetail,.eventDetail,.newsDetail{
         padding-top: 130px;

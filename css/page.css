@@ -95,7 +95,7 @@
     }
     .indexContainer>div ul[class$='Carousel'] li > dl{
        background-color: #ffffff; position: absolute; bottom: -10px; z-index: 100;
-        width: 88%; left: 6%; transition: 0.3s linear; 
+        width: 90%; left: 5%; transition: 0.3s linear; 
         font-weight: 300; text-align: center; padding: 15px 0;
     }
     .indexContainer>div ul[class$='Carousel'] li > dl dt{
@@ -230,6 +230,7 @@
     }
     .indexContainer div form fieldset input[type='submit']{
         float: right; width: 56%; padding: 5px 10px; line-height: 15px;
+        text-align: center; font-size: 9px;
     }
     .indexContainer div form fieldset input[type='submit']:active{
         color: #000; background-color: #fff;
@@ -242,35 +243,33 @@
         text-decoration: underline;
     }
     /* *mainFine */
-    .aboutContainer > article{
-        background-image: url('../images/aboutPng/abouthotelBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 130px;
+    .aboutContainer > article>img{
+        margin-bottom: 40px; width: 100%;
     }
-    .aboutContainer > article div *:not(h3){
+    .aboutContainer > article> div *:not(h3){
         font-size: 11px; line-height: 17px;
     }
-    .aboutContainer > article div{
+    .aboutContainer > article> div{
         font-weight: 400; font-style: normal; color: #666666;
     }
-    .aboutContainer > article div:first-child{
+    .aboutContainer > article div:first-of-type{
         margin-bottom: 30px;
     }
-    .aboutContainer > article div h3{
+    .aboutContainer > article> div h3{
         margin-bottom: 15px; font-size: 12px; font-weight: 600;
     }
-    .aboutContainer > article div >address{
+    .aboutContainer > article> div >address{
         font-style: normal;
     }
-    .aboutContainer > article div >address a{
+    .aboutContainer > article> div >address a{
         color: #666; text-decoration: none;
     }
-    .aboutContainer > article div >address a:active{
+    .aboutContainer > article> div >address a:active{
         text-decoration: underline; color: #af8d5d;
     }
     /* *aboutHotelFine */
-    .historyContainer>ul{
-        background-image: url('../images/aboutPng/historyBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 130px;
+    .historyContainer>img{
+        width: 100%; margin-bottom: 40px;
     }
     .historyContainer>ul>li{
         list-style: none;
@@ -279,7 +278,7 @@
         margin-bottom: 30px;
     }
     .historyContainer>ul>li h3{
-        font-size: 1px; font-weight: 500; display: block;
+        font-size: 11px; font-weight: 500; display: block;
         margin-bottom: 15px;
     }
     .historyContainer>ul>li>ol{
@@ -407,9 +406,8 @@
         font-size: 11px; color: #c9c9c9; font-weight: 300;
     }
     /* *location Fine */
-    .listContainer>div:nth-of-type(2){
-        background-image: url('../images/roomPng/accommodationBG.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 130px;
+    .listContainer>img{
+        width: 100%; margin-bottom: 40px;
     }
     .listContainer div h3{
         font-size: 14px; font-weight: 600; color: #1a1a1a; 
@@ -754,9 +752,8 @@
         display: none;
     }
     /* *roomdetail Fine */
-    .diningContainer>div:nth-of-type(2){
-        background-image: url('../images/diningPng/diningBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 130px;
+    .diningContainer>img{
+        width: 100%; margin-bottom: 40px;
     }
     .diningContainer>div>ul::after{
         content: ''; display: block; clear: both;
@@ -1282,13 +1279,13 @@
     .partyDetail>ul li figcaption dl dd{
         display: none; font-size: 12px;
     }
-    .partyDetail>ul li figcaption dl:hover{
+    .partyDetail>ul li figcaption dl:active{
         background-color: #af8d5d; bottom: 0;
     }
-    .partyDetail>ul li figcaption dl:hover dt{
+    .partyDetail>ul li figcaption dl:active dt{
         display: none;
     }
-    .partyDetail>ul li figcaption dl:hover dd{
+    .partyDetail>ul li figcaption dl:active dd{
         display: block; color: #fff;
     }
     /* * wedding fine */
@@ -1526,7 +1523,7 @@
         display: block; font-style: normal; margin-bottom: 20px;
     }
     .packageDetail> ol> li em{
-        font-size: 1px; font-weight: 400; color: #808080;
+        font-size: 11px; font-weight: 400; color: #808080;
     }
     .packageDetail> ol> li p{
         font-size: 11px; font-weight: 400; color: #292929; line-height: 27px;
@@ -2167,7 +2164,8 @@
     .indexContainer div>div .eventPrev,
     .indexContainer div>div .roomPrev{
         left: 3.12%; background-image: url('../images/mainPng/mainPrev.png'); background-repeat: no-repeat;
-        position: absolute; width: 52px; line-height: 30px;
+        background-size: 40px;
+        position: absolute; width: 40px; line-height: 30px;
     }
     .indexContainer div>div .eventPrev a,
     .indexContainer div>div .roomPrev a,
@@ -2178,7 +2176,8 @@
     .indexContainer div>div .eventNext,
     .indexContainer div>div .roomNext{
         right: 3.12%; background-image: url('../images/mainPng/mainNext.png'); background-repeat: no-repeat;
-        width: 52px; line-height: 30px; z-index: 10;
+        background-size: 40px;
+        width: 40px; line-height: 30px; z-index: 10;
     }
     .indexContainer>div>h3{
         font-size: 28px; font-weight: 500; color: #af8d5d; padding-top: 80px;
@@ -2362,9 +2361,8 @@
         text-decoration: underline;
     }
     /* *mainFine */
-    .aboutContainer > article{
-        background-image: url('../images/aboutPng/abouthotelBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 300px;
+    .aboutContainer > article img{
+        width: 100%; margin-bottom: 60px;
     }
     .aboutContainer > article div *:not(h3){
         font-size: 14px; line-height: 24px;
@@ -2372,7 +2370,7 @@
     .aboutContainer > article div{
         font-weight: 400; font-style: normal; color: #666666;
     }
-    .aboutContainer > article div:first-child{
+    .aboutContainer > article div:first-of-type{
         margin-bottom: 40px;
     }
     .aboutContainer > article div h3{
@@ -2388,9 +2386,8 @@
         text-decoration: underline; color: #af8d5d;
     }
     /* *aboutHotelFine */
-    .historyContainer>ul{
-        background-image: url('../images/aboutPng/historyBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 300px;
+    .historyContainer>img{
+        width: 100%; margin-bottom: 60px;
     }
     .historyContainer>ul>li{
         max-width: 720px; margin: 0 auto; list-style: none; margin-bottom: 50px;
@@ -2410,6 +2407,7 @@
     }
     .historyContainer>ul>li>ol li mark{
         background-color: transparent; color: #af8d5d; font-size: 20px; font-weight: 400; margin-right: 15px;
+        font-style: normal;        
     }
     /* *historyFine */
     .locationContainer>*:not(iframe,.pageHistory){
@@ -2519,9 +2517,8 @@
         font-size: 18px; color: #c9c9c9; font-weight: 300;
     }
     /* *location Fine */
-    .listContainer>div:nth-of-type(2){
-        background-image: url('../images/roomPng/accommodationBG.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 300px;
+    .listContainer>img{
+        width: 100%; margin-bottom: 60px;
     }
     .listContainer div h3{
         font-size: 20px; font-weight: 600; color: #1a1a1a;
@@ -2904,9 +2901,8 @@
         color: #fff;
     }
     /* *roomdetail Fine */
-    .diningContainer>div:nth-of-type(2){
-        background-image: url('../images/diningPng/diningBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 300px;
+    .diningContainer>img{
+        width: 100%; margin-bottom: 60px;
     }
     .diningContainer>div>ul::after{
         content: ''; display: block; clear: both;
@@ -4368,7 +4364,7 @@
     }
     .indexContainer div>div .eventPrev,
     .indexContainer div>div .roomPrev{
-        left: 5%; background-image: url('../images/mainPng/mainPrev.png'); background-repeat: no-repeat;
+        left: 2.75%; background-image: url('../images/mainPng/mainPrev.png'); background-repeat: no-repeat;
         width: 52px; line-height: 50px;
     }
     .indexContainer div>div .eventPrev a,
@@ -4379,7 +4375,7 @@
     }
     .indexContainer div>div .eventNext,
     .indexContainer div>div .roomNext{
-        right: 5%; background-image: url('../images/mainPng/mainNext.png'); background-repeat: no-repeat;
+        right: 2.75%; background-image: url('../images/mainPng/mainNext.png'); background-repeat: no-repeat;
         width: 52px; line-height: 50px;
     }
     .indexContainer>div>h3{
@@ -4402,7 +4398,7 @@
         padding: 50px 0 30px;
     }
     .indexContainer>div>div>.bx-wrapper{
-        margin: 0 auto; padding-bottom: 80px;
+        margin: 0 auto; padding-bottom: 80px; width: 80%;
     }
     .indexContainer>div ul[class$='Carousel'] li > a{
         width: 100%;
@@ -4558,9 +4554,8 @@
         text-decoration: underline;
     }
     /* *mainFine */
-    .aboutContainer > article{
-        background-image: url('../images/aboutPng/abouthotelBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 700px;
+    .aboutContainer > article img{
+        width: 100%; margin-bottom: 120px;
     }
     .aboutContainer > article div *:not(h3){
         font-size: 18px; line-height: 32px;
@@ -4568,7 +4563,7 @@
     .aboutContainer > article div{
         font-weight: 400; font-style: normal; color: #666666;
     }
-    .aboutContainer > article div:first-child{
+    .aboutContainer > article div:first-of-type{
         margin-bottom: 70px;
     }
     .aboutContainer > article div h3{
@@ -4584,9 +4579,8 @@
         text-decoration: underline; color: #af8d5d;
     }
     /* *aboutHotelFine */
-    .historyContainer>ul{
-        background-image: url('../images/aboutPng/historyBg.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 700px;
+    .historyContainer>img{
+        width: 100%; margin-bottom: 120px;
     }
     .historyContainer>ul>li{
         max-width: 1200px; margin: 0 auto 50px; list-style: none;
@@ -4726,9 +4720,8 @@
         font-size: 18px; color: #c9c9c9; font-weight: 300;
     }
     /* *location Fine */
-    .listContainer>div:nth-of-type(2){
-        background-image: url('../images/roomPng/accommodationBG.png'); background-repeat: no-repeat;
-        background-size: 100%; padding-top: 650px;
+    .listContainer>img{
+        width: 100%; margin-bottom: 120px;
     }
     .listContainer div h3{
         font-size: 24px; font-weight: 600; color: #1a1a1a;
@@ -5098,9 +5091,8 @@
         color: #fff;
     }
     /* *roomdetail Fine */
-    .diningContainer>div:nth-of-type(2){
-        background-image: url('../images/diningPng/diningBg.png'); background-repeat: no-repeat; margin-bottom: 95px;
-        padding-top: 540px;
+    .diningContainer>img{
+        width: 100%; margin-bottom: 120px;
     }
     .diningContainer>div>ul::after{
         content: ''; display: block; clear: both;
