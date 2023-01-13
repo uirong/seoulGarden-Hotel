@@ -32,12 +32,12 @@ function customSlider(target,pagerVal,minCount,maxCount,widthVal,marginVal,nextT
 function tabControl(btnTab,tabPage){
     var currentTab = null;
     $(btnTab).click(function(){
-        currentTab = "#" + $(this).attr('data-tabName'); //? 비어있는 currentTab에 id ,에게 data-tabName의 속성을 가져오..넣기
+        currentTab = "#" + $(this).attr('data-tabName'); 
         // console.log(currentTab);
-        $(tabPage).removeClass("active"); //? tabPage에게 active 클래스 삭제하기
-        $(currentTab).addClass("active"); //? 현재 탭에게 active 클래스 추가하기
-        $(btnTab).removeClass("active"); //? tabeUI li 에게 active
-        $(this).addClass("active"); //? 타겟된 애한테 active 클래스 넣기
+        $(tabPage).removeClass("active");
+        $(currentTab).addClass("active");
+        $(btnTab).removeClass("active"); 
+        $(this).addClass("active");
     });
 }
 function toggleControl(target){
