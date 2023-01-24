@@ -237,7 +237,7 @@ table:not(#airportTab>table) caption{
     header nav{
         display: none;
         width: 100%; position: absolute; top: 167px;
-        background-color: #cccccc; z-index: 500;
+        background-color: #cccccc; z-index: 1200;
         padding-top: 40px; box-sizing: border-box;
     }
     header > input[type='button'].active + nav{
